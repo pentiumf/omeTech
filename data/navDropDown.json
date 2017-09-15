@@ -35,22 +35,22 @@
         "name": "Payment Service",
         "data" : [
             {
-                "logo" : "point-of-service.png",
+                "logo" : "ome-web_utilities-icon.png",
                 "name" : "Utilities",
                 "route" : "utilities"
             },
             {
-                "logo" : "mobile-phone.png",
+                "logo" : "ome-web_airtimedatabundle-icon.png",
                 "name" : "Airtime / Data Bundle",
                 "route" : "airtime-data-bundle"
             },
             {
-                "logo" : "money-transfer.png",
+                "logo" : "ome-web_transfers-icon.png",
                 "name" : "Transfers",
                 "route" : "transfers"
             },
             {
-                "logo" : "save.png",
+                "logo" : "ome-web_collections-icon.png",
                 "name" : "Collections",
                 "route" : "collections"
             }
