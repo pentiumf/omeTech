@@ -1,20 +1,22 @@
 <div id="navBar" class="clearfix">
+   
     <div class="nav-bar-left clearfix">
         <div class="navbrand-logo">
             <div class="logo">
-                <a href="">
+                <a ui-sref="root">
                     <img src="https://www.freelogodesign.org/img/logo-ex-4.png" alt="">
                 </a>
             </div>
         </div>
         <div class="nav-routes">
             <ul>
-                <li><a href="" class="drop-nav-link" data-nav= "navDropTab1">Products 1</a></li>
-                <li><a href="" class="drop-nav-link" data-nav= "navDropTab2">Products 2</a></li>
-                <li><a href="" class="drop-nav-link" data-nav= "navDropTab3">Products 3</a></li>
+                <li><a href="javascript:void(0)" ui-sref-active="activeSstate" class="drop-nav-link" data-nav= "navDropTab1">Products</a></li>
+                <li><a href="javascript:void(0)" class="drop-nav-link" data-nav= "navDropTab2">Payment Services</a></li>
+                <li><a ui-sref="product" class="drop-nav-link">Developer Zone</a></li>
             </ul>
         </div>
     </div>
+    
     <div class="nav-bar-right">
         <div class="nav-auth">
             <a href="">join Now</a>
@@ -22,135 +24,33 @@
     </div>
     
     <div id="navDropTab1" class="navbar-dropdown-wrapper clearfix">
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
+
+        <div class="navbar-dropdown-content" ng-repeat="data in products.data">
+            <div class="navbar-dropdown-content-img">
+                <img src="public/images/{{data.logo}}" alt="">
+            </div>
+            <div class="navbar-dropdown-content-cap">
+                <h4>{{data.name}}</h4>
+            </div>
+            <a href="#/product/{{data.route}}"></a>
         </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
+
     </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-</div>
 
     <div id="navDropTab2" class="navbar-dropdown-wrapper clearfix">
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 2</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 2</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 2</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-</div>
 
-    <div id="navDropTab3" class="navbar-dropdown-wrapper clearfix">
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
+        <div class="navbar-dropdown-content" ng-repeat="data in payment.data">
+            <div class="navbar-dropdown-content-img">
+                <img src="public/images/{{data.logo}}" alt="">
+            </div>
+            <div class="navbar-dropdown-content-cap">
+                <h4>{{data.name}}</h4>
+            </div>
+            <a href="#/payment/{{data.route}}"></a>
         </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 3</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 3</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 3</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-    <div class="navbar-dropdown-content">
-        <div class="navbar-dropdown-content-img">
-            <img src="public/images/500px-AWS.png" alt="">
-        </div>
-        <div class="navbar-dropdown-content-cap">
-            <h4><a href="">Payment 3</a></h4>
-            <p>
-                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-            </p>
-        </div>
-    </div>
-</div>
 
-
+    </div>
 
 </div>
+
+

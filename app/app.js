@@ -1,1 +1,1 @@
-var app = angular.module("assetApp", ["ui.router", "angular-loading-bar", "appRoutes", "appServices", "appDirectives", "appController"]);
+var app = angular.module("assetApp", ["ui.router", "angular-loading-bar", "appRoutes", "appDirectives", "appServices", "appController"]);

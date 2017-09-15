@@ -13,7 +13,9 @@ angular.module("appDirectives", [])
                 
             });
         },
-        templateUrl: 'views/directives/navBar.html'
+        templateUrl: 'views/directives/navBar.html',
+        controller: 'navController',
+        bindToController: true
     }
 })
 .directive("homeCarosel", function() {
@@ -53,6 +55,34 @@ angular.module("appDirectives", [])
         },
         templateUrl: 'views/directives/homeCarousel.html'
     }
+})
+.directive("stickyNav", function() {
+    return {
+        restrict: 'EA',
+        link: function(scope, elem, attr) {
+            scope.id = attr.id;
+            
+            var navHeight = $("#navBar").height();
+            $("#"+scope.id).sticky({ topSpacing: navHeight });
+            $("#"+scope.id).on('sticky-start', function() { console.log("Started"); });
+            
+//            $('.scroll-mover').on('click',function (e) {
+//                e.preventDefault();
+//
+//                var target = this.hash;
+//                var $target = $(target);
+//
+//                $('html, body').stop().animate({
+//                    'scrollTop': $target.offset().top
+//                }, 900, 'swing', function () {
+//                    window.location.hash = target;
+//                });
+//            });
+            
+        },
+        templateUrl: 'views/directives/stickyNav.html'
+    }
 });
+
 
 

@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "name": "Products",
+        "data" : [
+            {
+                "logo" : "credit-card.png",
+                "name" : "Payment Solutions",
+                "route" : "payment-solutions"
+            },
+            {
+                "logo" : "app.png",
+                "name" : "Web & Mobile Application Development",
+                "route" : "web-mobile-development"
+            },
+            {
+                "logo" : "curriculum.png",
+                "name" : "Enterprise Resource Planning Applications",
+                "route" : "enterprise-resource-planning-applications"
+            },
+            {
+                "logo" : "crm.png",
+                "name" : "Customer Relations Management Solution",
+                "route" : "customer-relations-management-solution"
+            },
+            {
+                "logo" : "telemarketer.png",
+                "name" : "Market Place",
+                "route" : "market-place"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Payment Service",
+        "data" : [
+            {
+                "logo" : "point-of-service.png",
+                "name" : "Utilities",
+                "route" : "utilities"
+            },
+            {
+                "logo" : "mobile-phone.png",
+                "name" : "Airtime / Data Bundle",
+                "route" : "airtime-data-bundle"
+            },
+            {
+                "logo" : "money-transfer.png",
+                "name" : "Transfers",
+                "route" : "transfers"
+            },
+            {
+                "logo" : "save.png",
+                "name" : "Collections",
+                "route" : "collections"
+            }
+        ]
+    }
+]

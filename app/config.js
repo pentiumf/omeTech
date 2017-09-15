@@ -7,6 +7,21 @@ angular.module("appRoutes", [])
         templateUrl: 'views/pages/home.html',
         controller: 'homeController'
     })
+    .state('product', {
+        url: '/product',
+        templateUrl: 'views/pages/product.html',
+        controller: 'productController'
+    })
+    .state('productDetails', {
+        url: '/product/:name',
+        templateUrl: 'views/pages/productDetails.html',
+        controller: 'productDetailsController'
+    })
+    .state('paymentDetails', {
+        url: '/payment/:name',
+        templateUrl: 'views/pages/paymentDetails.html',
+        controller: 'paymentDetailsController'
+    })
 //    .state('home', {
 //        url: '/',
 //        template: '<h1>Home</h1>'
