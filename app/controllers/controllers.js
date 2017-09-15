@@ -18,10 +18,10 @@ angular.module("appController", [])
     $scope.loader = true;
     var param = $stateParams.name;
     
-    homeFactory.getProductsDetails(param, function(result) {
-       $scope.data = result;
-       $scope.loader = false;
-    });
+//    homeFactory.getProductsDetails(param, function(result) {
+//       $scope.data = result;
+//       $scope.loader = false;
+//    });
     
     console.log(param)
     
@@ -32,10 +32,10 @@ angular.module("appController", [])
     $scope.loader = true;
     var param = $stateParams.name;
     
-    homeFactory.getPaymentsDetails(param, function(result) {
-       $scope.data = result;
-       $scope.loader = false;
-    });
+//    homeFactory.getPaymentsDetails(param, function(result) {
+//       $scope.data = result;
+//       $scope.loader = false;
+//    });
     
     console.log(param)
     
