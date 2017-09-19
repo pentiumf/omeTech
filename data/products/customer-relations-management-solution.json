@@ -1,0 +1,98 @@
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Customer Relations Management Solution",
+        "bgCaptionSub" : "Maintaian a healthy relashionship with your customers",
+        "bgGetStartedRoute" : "crm",
+        "overviewHeader" : "Customer Relationship",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "crm",
+        "overviewImg" : "https://getbase.com/assets/img/home/product-scene.png",
+        "featuresCarousel" : [
+            {
+                "name" : "Discount & Point Based Loyalty Solutions",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "discountPointSol",
+                "img" : "https://loyalty360.org/getattachment/52383728-ed41-4ef4-938c-21b3ecec81b5/smarter-loyalty-solution-for-ibm"
+            },
+            {
+                "name" : "Customer Engagement Solution",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "custumnerEngamentsSol",
+                "img" : "https://www.jacada.com/images/blog/richard-snow-white-paper.jpg"
+            },
+            {
+                "name" : "Bulk SMS Solutions",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "smsServices",
+                "img" : "http://www.salontouchstudio.com/uploads/4/2/1/4/42140837/7044977_orig.png"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$1",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$15",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$25",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+

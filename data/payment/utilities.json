@@ -1,0 +1,106 @@
+
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Utilities Bill Payment",
+        "bgCaptionSub" : "A very easy and fast way to pay all your bills",
+        "bgGetStartedRoute" : "utilities",
+        "overviewHeader" : "Fast Easy And Secure Payment Portal",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "utilities",
+        "overviewImg" : "https://www.storeapps.org/wp-content/uploads/2016/04/make-money-online.png",
+        "featuresCarousel" : [
+            {
+                "name" : "ECG – Postpaid & Prepaid",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "ECGPrepaid",
+                "img" : "http://www.readersdigest.co.uk/sites/default/files/styles/header_v3/public/article-top/electricity.jpg"
+            },
+            {
+                "name" : "Water Bills",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "waterBills",
+                "img" : "http://waow.images.worldnow.com/images/9704133_G.jpg"
+            },
+            {
+                "name" : "TV license",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "tvLincence",
+                "img" : "http://media.npr.org/assets/img/2015/08/18/istock_000050337046_large_wide-98804c7830b490f0eb35e499b27777ae4e632686-s900-c85.jpg"
+            },
+            {
+                "name" : "Waste Bills",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "wasteBill",
+                "img" : "https://wasterecycling.org/images/ss1.jpg"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$1",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$15",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$25",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+

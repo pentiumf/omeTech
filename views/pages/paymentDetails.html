@@ -1,1 +1,59 @@
-<h1>{{name}}</h1>
+
+
+<div class="products-bg-wrapper">
+    <div class="products-bg-cap">
+        <h2>{{data.bgCaptionHeader}}</h2>
+        <p>{{data.bgCaptionSub}}</p>
+        
+        <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button'>Get Started</a>
+    </div>
+</div>
+
+<sticky-nav id="productOneSticky"></sticky-nav>
+ 
+ <div class="product-overview">
+     <div class="product-overview-header">
+         <h2>{{data.overviewHeader}}</h2>
+     </div>
+     
+     <div class="product-overview-info-wrap clearfix">
+         <div class="product-overview-left">
+             <div class="product-overview-left-img">
+                 <img src="{{data.overviewImg}}" alt="">
+             </div>
+         </div>
+         <div class="product-overview-right">
+             <div class="product-overview-right-cap">
+                 <p>{{data.overviewText}}</p>
+                 <a href="#/learn-more/{{data.overviewLearmoreRoute}}">Learn More</a>
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+<prducts-carosel></prducts-carosel>
+
+  
+<div id="pricing">
+    <div class="pricing-header">
+        <h1>Pricing</h1>
+    </div>
+    
+	<div ng-repeat="pricing in data.pricing" class="price_card {{pricing.type}}">
+		<div class="header">
+			<span class="price">{{pricing.price}}</span>
+			<span class="name">{{pricing.name}}</span>
+		</div>
+		<ul class="features">
+			<li ng-repeat="feature in pricing.features">{{feature.name}}</li>
+		</ul>
+		<button>{{pricing.button}}</button>
+		<span class="tip">{{pricing.tip}}</span>
+	</div>
+	
+</div>
+
+
+<div ng-include src="'views/includes/footer.html'">
+        
+</div>

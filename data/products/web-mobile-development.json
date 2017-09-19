@@ -1,0 +1,100 @@
+
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Web & Mobile Application Development",
+        "bgCaptionSub" : "We build high and scalable application with powerful algorithms",
+        "bgGetStartedRoute" : "web-mobile-apps",
+        "overviewHeader" : "Build Robust Web Applications",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "web-mobile-apps",
+        "overviewImg" : "http://aevinteractive.com/wp-content/uploads/2016/04/lillstreet-6.png",
+        "featuresCarousel" : [
+            {
+                "name" : "Web Application Development",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "webApps",
+                "img" : "http://colorwhistle.com/wp-content/uploads/2015/07/website-development-vs-web-application-development.jpg"
+            },
+            {
+                "name" : "iOS App Development",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "IOSApps",
+                "img" : "http://s3.amazonaws.com/digitaltrends-uploads-prod/2016/02/ios-apple-app-store-iphone-smartphone-ipad-tablet.jpg"
+            },
+            {
+                "name" : "Android App Development",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "androidDev",
+                "img" : "https://fscl01.fonpit.de/userfiles/6727621/image/2nd_YEAR/Sony-Z3/androidpit-sony-xperia-Z3-1-6.jpg"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$10",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$150",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$250",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Money Transfers",
+        "bgCaptionSub" : "A very easy and fast way to tranfer money",
+        "bgGetStartedRoute" : "transfers",
+        "overviewHeader" : "Transfer Money Anywhere",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "transfers",
+        "overviewImg" : "http://money4mobile.in/website/1427308186_MoneyTF.PNG",
+        "featuresCarousel" : [
+            {
+                "name" : "Bank to Bank",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "bank-to-bank",
+                "img" : "http://cdn.moneycrashers.com/wp-content/uploads/2016/04/bank-window-bonus-promotion-918x516.jpg"
+            },
+            {
+                "name" : "Wallet to Wallet",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "wallet-wallet",
+                "img" : "https://i.ytimg.com/vi/lWYX8CACBWc/maxresdefault.jpg"
+            },
+            {
+                "name" : "Bank to Wallet",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "bank-wallet",
+                "img" : "http://media.techregar.com/images/2016/12/mobile-wallet-stock-image.jpg"
+            },
+            {
+                "name" : "Wallet to Bank",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "wallet-bank",
+                "img" : "http://images.indianexpress.com/2016/05/mobile-banking-759.jpg"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$1",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$15",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$25",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+

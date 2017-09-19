@@ -16,7 +16,7 @@ angular.module("appServices", [])
     
     homeServices.getProductsDetails = function(a, cb) {
         $http({
-            url: 'data/'+a+'.json',
+            url: 'data/products/'+a+'.json',
             method: 'GET',
         }).then(function(response){
             cb(response.data);
@@ -28,12 +28,12 @@ angular.module("appServices", [])
     
     homeServices.getPaymentsDetails = function(a, cb) {
         $http({
-            url: 'data/'+a+'.json',
+            url: 'data/payment/'+a+'.json',
             method: 'GET',
         }).then(function(response){
             cb(response.data);
         }, function(response){
-            $location.url('/404');
+            //$location.url('/404');
         });
     }
     

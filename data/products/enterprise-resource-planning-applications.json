@@ -1,0 +1,111 @@
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Enterprise Resource Planning Applications",
+        "bgCaptionSub" : "We help you manage your business",
+        "bgGetStartedRoute" : "erps",
+        "overviewHeader" : "Manage Your Business",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "erps",
+        "overviewImg" : "https://erpfm.com/media/image/776-public-relations-software-erp.jpg",
+        "featuresCarousel" : [
+            {
+                "name" : "Project Management",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "projectManagement",
+                "img" : "https://newsignature.com/wp-content/uploads/2017/02/project-management.png"
+            },
+            {
+                "name" : "Human Resources",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "HR",
+                "img" : "https://www.asc.upenn.edu/sites/default/files/styles/landing_page_intro_687x375px/public/field/image/Human%20Resources%20for%20homepage%20resized.jpg?itok=tHWPSblp"
+            },
+            {
+                "name" : "Accounting",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "accounting",
+                "img" : "https://www.timeshighereducation.com/sites/default/files/accounting.jpg"
+            },
+            {
+                "name" : "Procurement",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "procurement",
+                "img" : "http://tekraglobalconcepts.com/contracts/wp-content/uploads/2014/11/procurement1.jpg"
+            },
+            {
+                "name" : "Database Analytics ",
+                "subtext" : "Fast And Robust",
+                "dataTabId" : "DBanalytics",
+                "img" : "http://tekraglobalconcepts.com/contracts/wp-content/uploads/2014/11/procurement1.jpg"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$19",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$45",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$65",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+

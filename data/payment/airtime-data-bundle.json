@@ -1,0 +1,106 @@
+
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Airtime / Data Bundle",
+        "bgCaptionSub" : "A very easy and fast way to topup airtime and data bundle",
+        "bgGetStartedRoute" : "airtime-data-bundle",
+        "overviewHeader" : "Fast Easy And Secure Payment Portal",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "airtime-data-bundle",
+        "overviewImg" : "http://img.c.huaweistatic.com/content/dam/huawei-cbg-site/en/mkt/pdp/phones/p9lite/assets/matebook/images/index-img/sec5/phone.png",
+        "featuresCarousel" : [
+            {
+                "name" : "MTN",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "airtime-mtn",
+                "img" : "https://www.mtn.com.gh/images/default-source/4g/mtn4g_online_web1280x620.png?sfvrsn=0"
+            },
+            {
+                "name" : "Vodafone",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "airtime-vodafone",
+                "img" : "https://i0.wp.com/websiteghana.com/wp-content/uploads/cache/2017/03/vodafone-bundle-codes-internet-packages/1858791747.jpg"
+            },
+            {
+                "name" : "Airtel",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "airtime-tvLincence",
+                "img" : "https://www.earticleblog.com/wp-content/uploads/2017/03/airtel-freebie-myairtel-app-featured-image-earticleblog-1024x465.png"
+            },
+            {
+                "name" : "Tigo",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "airtime-tigo",
+                "img" : "https://tigo.co.tz/images/tigo-app/TigoApp-slider.jpg"
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$1",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$15",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$25",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+

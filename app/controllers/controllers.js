@@ -18,34 +18,23 @@ angular.module("appController", [])
     $scope.loader = true;
     var param = $stateParams.name;
     
-//    homeFactory.getProductsDetails(param, function(result) {
-//       $scope.data = result;
-//       $scope.loader = false;
-//    });
-    
-    console.log(param)
-    
-    $scope.name = "Products Details";
+    homeFactory.getProductsDetails(param, function(result) {
+        $scope.data = result;
+        $scope.loader = false;
+    });
     
 }])
 .controller('paymentDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
     $scope.loader = true;
     var param = $stateParams.name;
     
-//    homeFactory.getPaymentsDetails(param, function(result) {
-//       $scope.data = result;
-//       $scope.loader = false;
-//    });
-    
-    console.log(param)
-    
-    $scope.name = "Payment Details";
+    homeFactory.getPaymentsDetails(param, function(result) {
+        $scope.data = result;
+        $scope.loader = false;
+    });
     
 }])
 .controller('carouselController', ['$scope', '$stateParams', function($scope, $stateParams) {
-    
-    
-    
     
     
     

@@ -1,0 +1,94 @@
+
+    {
+        "bgColor" : "#1a87c7",
+        "bgCaptionHeader" : "Collections",
+        "bgCaptionSub" : "A very easy and fast way to save money",
+        "bgGetStartedRoute" : "collections",
+        "overviewHeader" : "We Help You Save Your Money",
+        "overviewText" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum totam error, libero quam fuga sapiente aspernatur rem nulla dignissimos voluptas consequuntur. Reprehenderit deleniti in, dolorum aperiam dolor laboriosam consequatur amet.",
+        "overviewLearmoreRoute": "collections",
+        "overviewImg" : "https://previews.123rf.com/images/kchung/kchung1407/kchung140700186/29840159-a-red-suggestion-box-with-notes-of-paper-stuffed-into-its-slot-offering-feedback-Stock-Vector.jpg",
+        "featuresCarousel" : [
+            {
+                "name" : "Fees & Dues",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "fees-dues",
+                "img" : "http://sanjivcpa.com/wp-content/uploads/2015/03/accounting-fee-deduction.jpg"
+            },
+            {
+                "name" : "School Contributions",
+                "subtext" : "Trusted And Secure",
+                "dataTabId" : "school-contributions",
+                "img" : "http://media.istockphoto.com/photos/group-of-school-kids-and-teacher-in-classroom-picture-id499343530?k=6&m=499343530&s=612x612&w=0&h=Pe0kaFwLqQNSasgyDY5MikoZx3bUSuknWrXqEbif1kk="
+            }
+        ],
+        "pricing" : [
+            {
+                "price" : "$1",
+                "name" : "Basic",
+                "type" : "alpha",
+                "color" : "#8e44ad",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    }
+                ],
+                "button" : "Start Now",
+                "tip" : "* Great for beginners!"
+            },
+            {
+                "price" : "$15",
+                "name" : "Premium",
+                "type" : "bravo",
+                "color" : "#f39c12",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "6 months access to the library"
+                    }
+                ],
+                "button" : "Buy Now",
+                "tip" : "* Most popular!"
+            },
+            {
+                "price" : "$25",
+                "name" : "Elite",
+                "type" : "charlie",
+                "color" : "#1a87c7",
+                "features" : [
+                    {
+                        "name" : "Complete documentation"
+                    },
+                    {
+                        "name" : "Working materials in PSD and Sketch format"
+                    },
+                    {
+                        "name" : "1 year access to the library"
+                    },
+                    {
+                        "name" : "2GB cloud storage"
+                    }
+                ],
+                "button" : "Upgrade",
+                "tip" : "* For Professionals!"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
