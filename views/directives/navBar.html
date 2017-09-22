@@ -1,34 +1,44 @@
 <div id="navBar" class="clearfix">
     <span id="pul"><i class="fa fa-bars"></i></span>
     
-    <div class="nav-bar-left clearfix">
-        <div class="navbrand-logo">
-            <div class="logo">
-                <a ui-sref="root">
-                    <img src="public/images/ome-web_logo.png" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="nav-routes">
-            <ul>
-                <li>
-                <a href="javascript:void(0)" ui-sref-active="activeSstate" id="navProducts" class="drop-nav-link" data-nav= "navDropTab1">Products</a>
-                </li>
-                
-                
-                <li>
-                <a href="javascript:void(0)" class="drop-nav-link" id="navPayment" data-nav= "navDropTab2">Payment Services</a>
-                </li>
-                
-                
-                <li><a ui-sref="product" class="drop-nav-link">Developer Zone</a></li>
-            </ul>
+    <div id="navbrandResponsiveLogo">
+        <div class="logo">
+            <a ui-sref="root">
+                <img src="public/images/ome-web_logo.png" alt="">
+            </a>
         </div>
     </div>
     
-    <div class="nav-bar-right clearfix">
-        <div class="nav-auth">
-            <a href="">join Now</a>
+    <div id="navFloatWrapper">
+        <div class="nav-bar-left clearfix">
+            <div class="navbrand-logo">
+                <div class="logo">
+                    <a ui-sref="root">
+                        <img src="public/images/ome-web_logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="nav-routes">
+                <ul>
+                    <li>
+                    <a href="javascript:void(0)" ui-sref-active="activeSstate" id="navProducts" class="drop-nav-link" data-nav= "navDropTab1">Products</a>
+                    </li>
+
+
+                    <li>
+                    <a href="javascript:void(0)" class="drop-nav-link" id="navPayment" data-nav= "navDropTab2">Payment Services</a>
+                    </li>
+
+
+                    <li><a ui-sref="product" class="drop-nav-link">Developer Zone</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="nav-bar-right clearfix">
+            <div class="nav-auth">
+                <a href="">join Now</a>
+            </div>
         </div>
     </div>
     
@@ -57,7 +67,7 @@
             <div class="navbar-dropdown-content-cap">
                 <h4>{{data.name}}</h4>
             </div>
-            <a class="nav-sub-link" href="#/payment/{{data.route}}"></a>
+            <a class="nav-sub-link" href="/payment/{{data.route}}"></a>
         </div>
 
     </div>

@@ -31,6 +31,15 @@ angular.module("appDirectives", [])
             });
             
             
+            $("#pul").on("click", function(e) {
+                $("#navFloatWrapper").toggleClass('display-float-wrapper');
+                //menu.slideToggle();
+            });
+            
+            $(".close-nav-drpdwn").on("click", function() {
+                $(".navbar-dropdown-wrapper").removeClass("currentNavDropDown");
+            });
+            
             
         },
         templateUrl: 'views/directives/navBar.html',
