@@ -31,7 +31,69 @@
      </div>
  </div>
  
-<prducts-carosel></prducts-carosel>
+ <data-owl-carousel class="owl-carousel" data-options="{navigation: true, pagination: false, rewindNav : false, loop: true}">
+     
+      <div owl-carousel-item="" ng-repeat="item in ::items1" class="item">
+        <p>{{::item}}</p>
+      </div>
+      
+</data-owl-carousel>
+
+
+ <data-owl-carousel class="owl-carousel" data-options="{nav: true, items: 1, loop: true, dots: true, center: true, autoplay: true}">
+     
+      <div id="productsCarousel" owl-carousel-item="" ng-repeat="stuff in names" class="item" style="background-image: url({{stuff}});">
+       
+       
+       <div class="product-overview-text">
+            <h3>{{stuff}}</h3>
+            <p>Trusted And Secure</p>
+            <a href="">Learn More</a>
+        </div>
+        
+      </div>
+      
+</data-owl-carousel>
+ 
+ 
+<!--
+ <div id="testCarousel" class="owl-carousel">
+   
+    <div ng-repeat="item in data.featuresCarousel" class="item" style="background-image: url(https://media.coindesk.com/uploads/2015/10/point-of-sale-payment-terminal.jpg);">
+        <div class="product-overview-text">
+            <h3>{{item.name}}</h3>
+            <p>Trusted And Secure</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+    
+    <div class="item" style="background-image: url(https://wemakewebsites.com/sites/default/files/styles/large/public/post_images/headline/Dollarphotoclub_95004142.jpg?itok=S7ZBTGrD);">
+        <div class="product-overview-text">
+            <h3>Online Payment Gateway</h3>
+            <p>Trusted And Secure</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+    
+    <div class="item" style="background-image: url(http://www.icbio.org/images/online-payment.jpg);">
+        <div class="product-overview-text">
+            <h3>Mobile Money Acceptance</h3>
+            <p>Trusted And Secure</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+    
+    <div class="item" style="background-image: url(https://usa.visa.com/dam/VCOM/Global%20Elements/android-images/Visa-AndroidPay-1600x900.png);">
+        <div class="product-overview-text">
+            <h3>QR Code (MasterPass & mVisa)</h3>
+            <p>Trusted And Secure</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+</div>
+-->
+ 
+<!--<prducts-carosel></prducts-carosel>-->
 
 
   

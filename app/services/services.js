@@ -37,6 +37,16 @@ angular.module("appServices", [])
         });
     }
     
+    homeServices.getApplicationDetails = function(a, cb) {
+        $http({
+            url: 'data/application/'+a+'.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            //$location.url('/404');
+        });
+    }
     return homeServices;
     
 }]);

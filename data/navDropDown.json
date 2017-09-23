@@ -5,28 +5,18 @@
         "data" : [
             {
                 "logo" : "ome-web_paymentolutions-icon.png",
-                "name" : "Payment Solutions",
-                "route" : "payment-solutions"
+                "name" : "Mobile & Web",
+                "route" : "mobile-web-payment"
             },
             {
                 "logo" : "ome-web_webmobiledev-icon.png",
-                "name" : "Web & Mobile Application Development",
-                "route" : "web-mobile-development"
+                "name" : "QR Code",
+                "route" : "qr-code"
             },
             {
                 "logo" : "ome-web_erp-icon.png",
-                "name" : "Enterprise Resource Planning Applications",
-                "route" : "enterprise-resource-planning-applications"
-            },
-            {
-                "logo" : "ome-web_crm-icon.png",
-                "name" : "Customer Relations Management Solution",
-                "route" : "customer-relations-management-solution"
-            },
-            {
-                "logo" : "ome-web_market-icon.png",
-                "name" : "Market Place",
-                "route" : "market-place"
+                "name" : "Smart Pos",
+                "route" : "smart-pos"
             }
         ]
     },
@@ -36,23 +26,18 @@
         "data" : [
             {
                 "logo" : "ome-web_utilities-icon.png",
-                "name" : "Utilities",
-                "route" : "utilities"
+                "name" : "Mobile Applications",
+                "route" : "mobile-application"
             },
             {
                 "logo" : "ome-web_airtimedatabundle-icon.png",
-                "name" : "Airtime / Data Bundle",
-                "route" : "airtime-data-bundle"
+                "name" : "Web Applications",
+                "route" : "web-application"
             },
             {
                 "logo" : "ome-web_transfers-icon.png",
-                "name" : "Transfers",
-                "route" : "transfers"
-            },
-            {
-                "logo" : "ome-web_collections-icon.png",
-                "name" : "Collections",
-                "route" : "collections"
+                "name" : "Enterprise Resource Planning Applications",
+                "route" : "enterprise-resource-planning-applications"
             }
         ]
     }
