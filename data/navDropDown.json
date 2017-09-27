@@ -4,17 +4,17 @@
         "name": "Products",
         "data" : [
             {
-                "logo" : "ome-web_paymentolutions-icon.png",
+                "logo" : "ome-web_mobile&web-icon.png",
                 "name" : "Mobile & Web",
                 "route" : "mobile-web-payment"
             },
             {
-                "logo" : "ome-web_webmobiledev-icon.png",
+                "logo" : "ome-web_qrcode-icon .png",
                 "name" : "QR Code",
                 "route" : "qr-code"
             },
             {
-                "logo" : "ome-web_erp-icon.png",
+                "logo" : "ome-web_pos-icon.png",
                 "name" : "Smart Pos",
                 "route" : "smart-pos"
             }
@@ -25,12 +25,12 @@
         "name": "Payment Service",
         "data" : [
             {
-                "logo" : "ome-web_utilities-icon.png",
+                "logo" : "ome-web_mobileapp-icon.png",
                 "name" : "Mobile Applications",
                 "route" : "mobile-application"
             },
             {
-                "logo" : "ome-web_airtimedatabundle-icon.png",
+                "logo" : "ome-web_webapp -icon.png",
                 "name" : "Web Applications",
                 "route" : "web-application"
             },
