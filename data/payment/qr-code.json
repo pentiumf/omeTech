@@ -1,0 +1,15 @@
+{
+	"header" : "QR Code Merchant Portal",
+	"headerPrara" : "Get your bank connected with qr code.",
+	"productsBgImg" : "https://www.theonlinecitizen.com/wp-content/uploads/2017/04/DBS-PayLah_QR-Code-with-NETS-terminal.png?w=640",
+	"productOverview1Head" : "CHOOSE QR PAYMENT",
+	"productOverview1Para" : "It is one of the payment methods automatically available for all tpay.com Customers. You can pay with one out of 8 bank mobile apps.",
+	"productOverview1Img" : "https://previews.123rf.com/images/bloomua/bloomua1204/bloomua120400040/13251620-Modern-mobile-smartphone-showing-QR-code-scanner-on-the-screen-Include-clipping-path-for-phone-and-s-Stock-Photo.jpg",
+	"productOverview2Head" : "SCAN QR CODE",
+	"productOverview2HeadSub" : "Authenticate",
+	"productOverview2Para" : "Choose bank transfer with QR code/ scan and pay/photo transfer from mobile app options. You can also use demo mode to test QR payment.",
+	"productOverview2Img" : "http://www.qrcodepress.com/wp-content/uploads/2013/10/scopifyROM-qr-codes.jpg",
+	"productOverview3Head" : "Fast And Secure Integration",
+	"productOverview3Para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, eos, vitae. Iure mollitia beatae itaque labore, sequi? In molestiae, vel! Illum rerum neque porro, tempore dicta repellat deleniti earum iusto.",
+	"productOverview3Img" : "public/images/posdevice.png"
+}

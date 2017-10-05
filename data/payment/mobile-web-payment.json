@@ -1,0 +1,15 @@
+{
+	"header" : "Web and mobile payment for merchants",
+	"headerPrara" : "A Unique payment interface and tools to enable your business accept and manage online payment",
+	"productsBgImg" : "https://www.wedigtech.com/img/detail/iphone-content-img.png",
+	"productOverview1Head" : "Simplified payment gateway for your web and mobile application",
+	"productOverview1Para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!",
+	"productOverview1Img" : "public/images/webmobilepay.png",
+	"productOverview2Head" : "Real Time Mobile Payment",
+	"productOverview2HeadSub" : "Automated",
+	"productOverview2Para" : "Send money to relatives and love ones at your comfort. Its fast and easy..",
+	"productOverview2Img" : "https://cdn1.iconfinder.com/data/icons/finance-22/512/Conversion_Transaction_Banking_Send_Money_Dollar_Mobile-512.png",
+	"productOverview3Head" : "CONFIRM PAYMENT",
+	"productOverview3Para" : "Confirm bank transfer, you will receive notification for provided e-mail address. QR code payment is fast and easy-to-use.",
+	"productOverview3Img" : "public/images/posdevice.png"
+}

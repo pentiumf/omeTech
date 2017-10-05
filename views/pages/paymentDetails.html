@@ -5,15 +5,15 @@
     <div class="products-bg-cap clearfix">
        
        <div class="products-bg-cap-left animated fadeInLeft">
-           <h3>Web and mobile payment for merchants</h3>
-           <p>A Unique payment interface and tools to enable your business accept and manage online payment</p>
-           <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button'>Get Started</a>
-           <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button pulse-transparent'>Sign Up</a>
+           <h3>{{data.header}}</h3>
+           <p>{{data.headerPrara}}</p>
+           <a href="#/get-started" class='pulse-button'>Get Started</a>
+           <a href="#/get-started" class='pulse-button pulse-transparent'>Sign Up</a>
        </div>
         
        <div class="products-bg-cap-right">
            <div class="products-bg-cap-right-img">
-               <img src="https://www.wedigtech.com/img/detail/iphone-content-img.png" alt="">
+               <img ng-src="{{data.productsBgImg}}" alt="">
            </div>
        </div>        
        
@@ -35,14 +35,14 @@
          <div class="product-overview-left">
              <div class="product-overview-left-img">
 <!--                 <img src="http://deploy.meetingplay.com/marketing/landing/images/mockup/mockup.png" alt="">-->
-                 <img src="public/images/webmobilepay.png" alt="">
+                 <img ng-src="{{data.productOverview1Img}}" alt="">
              </div>
          </div>
          <div class="product-overview-right">
              <div class="product-overview-right-cap">
-                <h3>Simplified payment gateway for your web and mobile application</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!</p>
-                 <a href="#/learn-more/{{data.overviewLearmoreRoute}}">Learn More</a>
+                <h3>{{data.productOverview1Head}}</h3>
+                 <p>{{data.productOverview1Para}}</p>
+                 <a href="#/learn-more">Learn More</a>
              </div>
          </div>
      </div>
@@ -50,8 +50,29 @@
  
  <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>
- 
+
  <div class="product-second-overview">
+     
+     <div class="product-second-overview-wrap clearfix">
+         <div class="product-second-overview-left">
+            <div class="product-second-overview-left-cap">
+                <h3> {{data.productOverview2Head}}</h3>
+                 
+                 <b>{{data.productOverview2HeadSub}}</b> <br>
+                 <p>{{data.productOverview2Para}}</p>
+
+             </div>
+         </div>
+         <div class="product-second-overview-right">
+             <div class="product-second-overvie-left-img">
+                 <img src="{{data.productOverview2Img}}" alt="">
+             </div>
+         </div>
+     </div>
+     
+ </div>
+ 
+ <!-- <div class="product-second-overview">
      
      <div class="product-second-overview-wrap clearfix">
          <div class="product-second-overview-left">
@@ -72,7 +93,7 @@
          </div>
      </div>
      
- </div>
+ </div> -->
  
  
  
@@ -80,7 +101,7 @@
  <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>
  
-  <div class="product-overview">     
+ <!--  <div class="product-overview">     
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
@@ -96,7 +117,7 @@
          </div>
      </div>
  </div>
-
+ -->
 
 <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>

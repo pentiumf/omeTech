@@ -5,25 +5,24 @@
     <div class="products-bg-cap clearfix">
        
        <div class="products-bg-cap-left animated fadeInLeft">
-           <h3>Mobile Application Devlopment</h3>
-           <p>We build fast, secure, beutiful and high scalable mobile applications suitable for your business</p>
-           <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button'>Get Started</a>
-           <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button pulse-transparent'>Sign Up</a>
+           <h3>{{data.header}}</h3>
+           <p>{{data.headerPrara}}</p>
+           <a href="#/get-started" class='pulse-button'>Get Started</a>
+           <a href="#/get-started" class='pulse-button pulse-transparent'>Sign Up</a>
        </div>
         
        <div class="products-bg-cap-right">
            <div class="products-bg-cap-right-img">
-               <img src="https://www.code-brew.com/wp-content/uploads/2016/12/mobile-application-development.png" alt="">
+               <img ng-src="{{data.productsBgImg}}" alt="">
            </div>
-       </div>        
-       
+       </div>
 
 <!--
         <h2>{{data.bgCaptionHeader}}</h2>
         <p>{{data.bgCaptionSub}}</p>
-        
         <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button'>Get Started</a>
 -->
+
     </div>
     
 </div>
@@ -34,13 +33,13 @@
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
-                 <img src="http://www.magxpinfotechnology.com/images/ios-app-dev.png" alt="">
+                 <img src="{{data.productOverview1Img}}" alt="">
              </div>
          </div>
          <div class="product-overview-right">
              <div class="product-overview-right-cap">
-                <h3>IOS Applications</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!</p>
+                <h3>{{data.productOverview1Head}}</h3>
+                 <p>{{data.productOverview1Para}}</p>
                  <a href="#/learn-more/{{data.overviewLearmoreRoute}}">Learn More</a>
              </div>
          </div>
@@ -55,14 +54,14 @@
      <div class="product-second-overview-wrap clearfix">
          <div class="product-second-overview-left">
             <div class="product-second-overview-left-cap">
-                <h3> Andriod Application Development </h3>
+                <h3> {{data.productOverview2Head}} </h3>
     
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta veniam laboriosam rerum molestias illum eius assumenda libero maxime facere aut, natus architecto placeat, voluptate unde blanditiis! Voluptatem accusamus alias magni.</p>
+                 <p>{{data.productOverview2Para}}</p>
              </div>
          </div>
          <div class="product-second-overview-right">
              <div class="product-second-overvie-left-img">
-                 <img src="http://rayaztech.com/wp-content/uploads/2017/06/Android.png" alt="">
+                 <img src="{{data.productOverview2Img}}" alt="">
              </div>
          </div>
      </div>
@@ -79,13 +78,13 @@
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
-                 <img src="https://www.technocrab.com/img/windows-app-development-company-jaipur.png" alt="">
+                 <img src="{{data.productOverview3Img}}" alt="">
              </div>
          </div>
          <div class="product-overview-right">
              <div class="product-overview-right-cap">
-                <h3>Smart Point Of Sales Device</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!</p>
+                <h3>{{data.productOverview3Head}}</h3>
+                 <p>{{data.productOverview3Para}}</p>
                  <a href="#/learn-more/{{data.overviewLearmoreRoute}}">Learn More</a>
              </div>
          </div>
@@ -95,7 +94,7 @@
 
 <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>
-
+<!-- 
 <div class="product-grid-wrapper">
     <div class="product-grid-container clearfix">
         <div class="product-grid clearfix">
@@ -153,7 +152,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
  
   <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>

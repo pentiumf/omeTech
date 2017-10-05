@@ -1,0 +1,15 @@
+ {
+	"header" : "Smart Point Of Sale Device",
+	"headerPrara" : "Everything you need to sell and market Poynt products to your merchants",
+	"productsBgImg" : "https://d85ecz8votkqa.cloudfront.net/images/poyntdotcom/landing/pst-p5-header.png",
+	"productOverview1Head" : "Smart Mobile POS",
+	"productOverview1Para" : "Small in size, big in flexibility. The Poynt 5 has a sleek footprint, but with all the functionality you would expect from an enterprise-ready payment terminal.",
+	"productOverview1Img" : "https://d85ecz8votkqa.cloudfront.net/images/poyntdotcom/p5/p5-hand.png",
+	"productOverview2Head" : "The Poynt Smart Terminal",
+	"productOverview2HeadSub" : "New",
+	"productOverview2Para" : "The world's first smart terminal continues to amaze. You offer your customers the products and services they love don't forget to let them pay the way they like.",
+	"productOverview2Img" : "public/images/posdevice.png",
+	"productOverview3Head" : "CONFIRM PAYMENT",
+	"productOverview3Para" : "Confirm bank transfer, you will receive notification for provided e-mail address. QR code payment is fast and easy-to-use.",
+	"productOverview3Img" : "public/images/posdevice.png"
+}
