@@ -2,14 +2,14 @@
 	"header" : "Web Application Devlopment",
 	"headerPrara" : "We build fast, secure, beutiful and high scalable web applications suitable for your business",
 	"productsBgImg" : "https://qph.ec.quoracdn.net/main-qimg-d582a09a2e6d5c009df029741367ef6b",
-	"productOverview1Head" : "IOS Applications",
-	"productOverview1Para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!",
-	"productOverview1Img" : "http://www.magxpinfotechnology.com/images/ios-app-dev.png",
-	"productOverview2Head" : "Andriod Application Development",
+	"productOverview1Head" : "Custom Web Application Development",
+	"productOverview1Para" : "The advantage of custom web applications is that they are tailored exactly to the way your business works. Whether you need to build a custom web app from scratch, migrate your legacy backend, or streamline existing front-end functionality, we can accomplish that in an efficient and cost-effective manner.",
+	"productOverview1Img" : "http://www.zolute.in/images/cms-based.png",
+	"productOverview2Head" : "Mobile-Friendly And UI Website Development",
 	"productOverview2HeadSub" : "Automated",
-	"productOverview2Para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta veniam laboriosam rerum molestias illum eius assumenda libero maxime facere aut, natus architecto placeat, voluptate unde blanditiis! Voluptatem accusamus alias magni.",
-	"productOverview2Img" : "http://rayaztech.com/wp-content/uploads/2017/06/Android.png",
-	"productOverview3Head" : "Windows Application Development",
-	"productOverview3Para" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!",
-	"productOverview3Img" : "https://www.technocrab.com/img/windows-app-development-company-jaipur.png"
+	"productOverview2Para" : "The pervasive nature of portable devices make mobile web design a necessity. Our team of usabilty experts, graphic designers, and veteran front-end professionals will make sure your website looks and works great — no matter the screen size or resolution.",
+	"productOverview2Img" : "https://www.sencha.com/wp-content/uploads/2015/03/sencha-touch-hero.png",
+	"productOverview3Head" : "Startup Software Development",
+	"productOverview3Para" : "Want to take the industry by storm? If so, we are your reliable tech partner with a wealth of experience in helping startups. Our engagement model and low-risk approach will help reduce time to market, optimize your budget, and ensure 100% IPR protection of your code.",
+	"productOverview3Img" : "https://cdn-az.indiabizforsale.com/business/images/industry-icons/Startups.jpg"
 }
