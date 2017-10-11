@@ -25,6 +25,13 @@ angular.module("appDirectives", [])
                 $("#" + data_nav).toggleClass("currentNavDropDown");
             });
             
+            $("#navPros").click(function() {
+                console.log("clicked")
+                $("#navDropTab3").removeClass("currentNavDropDown");
+                var data_nav = $(this).attr("data-nav");
+                $("#" + data_nav).toggleClass("currentNavDropDown");
+            });
+            
             
             $("body").on("click", ".nav-sub-link", function() {
                 $(".navbar-dropdown-wrapper").removeClass("currentNavDropDown");
@@ -163,7 +170,7 @@ angular.module("appDirectives", [])
             carousel.owlCarousel({
                   loop: true,
                   center: true,
-                  items: 1,
+                  items: 3,
                   margin: 0,
                   autoplay: true,
                   dots: true,

@@ -1,0 +1,22 @@
+<div class="careers-banner-wrapper">
+    <div class="careers-cap">
+        <h1>Our Careers</h1>
+    </div>
+</div>
+
+
+<div class="careers-msg">
+    <p>We are looking for highly driven, creative individuals to join us on our journey to fix societal problems in the area of electronic payments and electronic banking.</p>
+    
+    <a href="javascript:void(0)" ng-hide="hideBtn" ng-click="showCareer=true;hideBtn=true">Click here to view available positions</a>
+    
+    <div class="no-careers-popup" ng-show="showCareer">
+       <i class="fa fa-close" ng-click="showCareer=false;hideBtn=false"></i>
+        <span>Sorry no careers available at the moment</span>
+    </div>
+</div>
+
+
+<div ng-include src="'views/includes/footer.html'">
+        
+</div>

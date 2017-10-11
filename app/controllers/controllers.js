@@ -5,6 +5,8 @@ angular.module("appController", [])
         $scope.navDropData = result;
         $scope.products = $scope.navDropData[0];
         $scope.payment = $scope.navDropData[1];
+        $scope.pros = $scope.navDropData[2];
+        console.log($scope.pros)
     });
     
 }])
@@ -65,6 +67,30 @@ angular.module("appController", [])
         $scope.loader = false;
         console.log($scope.data);
     });
+    
+}])
+.controller('aboutUsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    
+//    $scope.loader = true;
+//    var param = $stateParams.name;
+//    
+//    homeFactory.getApplicationDetails(param, function(result) {
+//        $scope.data = result;
+//        $scope.loader = false;
+//        console.log($scope.data);
+//    });
+    
+}])
+.controller('careersController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    
+//    $scope.loader = true;
+//    var param = $stateParams.name;
+//    
+//    homeFactory.getApplicationDetails(param, function(result) {
+//        $scope.data = result;
+//        $scope.loader = false;
+//        console.log($scope.data);
+//    }); careersController
     
 }]);
 

@@ -30,7 +30,9 @@
                     </li>
 
 
-                    <li><a href="" class="drop-nav-link">Market Place</a></li>
+                    <li>
+                    <a href="javascript:void(0)" class="drop-nav-link" id="navPros" data-nav="navDropTab3">Products</a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -68,6 +70,22 @@
                 <h4>{{data.name}}</h4>
             </div>
             <a class="nav-sub-link" href="#/application/{{data.route}}"></a>
+        </div>
+
+    </div>
+    
+    
+    <div id="navDropTab3" class="navbar-dropdown-wrapper clearfix">
+        <span class="close-nav-drpdwn"><i class="fa fa-close"></i></span>
+        
+        <div class="navbar-dropdown-content" ng-repeat="data in pros.data">
+            <div class="navbar-dropdown-content-img">
+                <img src="public/images/{{data.logo}}" alt="">
+            </div>
+            <div class="navbar-dropdown-content-cap">
+                <h4>{{data.name}}</h4>
+            </div>
+            <a class="nav-sub-link" href="#/products/{{data.route}}"></a>
         </div>
 
     </div>

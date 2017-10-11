@@ -27,6 +27,16 @@ angular.module("appRoutes", [])
         templateUrl: 'views/pages/applicationDetail.html',
         controller: 'applicationDetailsController'
     })
+    .state('aboutUs', {
+        url: '/about-us',
+        templateUrl: 'views/pages/aboutUs.html',
+        controller: 'aboutUsController'
+    })
+    .state('careers', {
+        url: '/careers',
+        templateUrl: 'views/pages/careers.html',
+        controller: 'careersController'
+    })
 //    .state('home', {
 //        url: '/',
 //        template: '<h1>Home</h1>'

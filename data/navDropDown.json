@@ -40,5 +40,26 @@
                 "route" : "enterprise-resource-planning-applications"
             }
         ]
+    },
+    {
+        "id": "3",
+        "name": "Products",
+        "data" : [
+            {
+                "logo" : "ome-web_mobileapp-icon.png",
+                "name" : "Mobile Applications",
+                "route" : "mobile-application"
+            },
+            {
+                "logo" : "ome-web_webapp -icon.png",
+                "name" : "Web Applications",
+                "route" : "web-application"
+            },
+            {
+                "logo" : "ome-web_transfers-icon.png",
+                "name" : "Enterprise Resource Planning Applications",
+                "route" : "enterprise-resource-planning-applications"
+            }
+        ]
     }
 ]
