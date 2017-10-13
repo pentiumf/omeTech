@@ -6,7 +6,7 @@ angular.module("appController", [])
         $scope.products = $scope.navDropData[0];
         $scope.payment = $scope.navDropData[1];
         $scope.pros = $scope.navDropData[2];
-        console.log($scope.pros)
+        //console.log($scope.pros)
     });
     
 }])
@@ -21,38 +21,38 @@ angular.module("appController", [])
 }])
 
 .controller('productDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
-    $scope.loader = true;
-    var param = $stateParams.name;
-    
-    homeFactory.getProductsDetails(param, function(result) {
-        $scope.data = result;
-        $scope.loader = false;
-        console.log($scope.data)
-    });
-    
-    $scope.names = [
-        "https://media.coindesk.com/uploads/2015/10/point-of-sale-payment-terminal.jpg",
-        "https://wemakewebsites.com/sites/default/files/styles/large/public/post_images/headline/Dollarphotoclub_95004142.jpg?itok=S7ZBTGrD",
-        "http://www.icbio.org/images/online-payment.jpg",
-        "https://usa.visa.com/dam/VCOM/Global%20Elements/android-images/Visa-AndroidPay-1600x900.png"
-    ];
-    
-    $scope.items1 = [1,2,3,4,5];
-    $scope.items2 = [1,2,3,4,5,6,7,8,9,10];
+//    $scope.loader = true;
+//    var param = $stateParams.name;
+//    
+//    homeFactory.getProductsDetails(param, function(result) {
+//        $scope.data = result;
+//        $scope.loader = false;
+//        //console.log($scope.data)
+//    });
+//    
+//    $scope.names = [
+//        "https://media.coindesk.com/uploads/2015/10/point-of-sale-payment-terminal.jpg",
+//        "https://wemakewebsites.com/sites/default/files/styles/large/public/post_images/headline/Dollarphotoclub_95004142.jpg?itok=S7ZBTGrD",
+//        "http://www.icbio.org/images/online-payment.jpg",
+//        "https://usa.visa.com/dam/VCOM/Global%20Elements/android-images/Visa-AndroidPay-1600x900.png"
+//    ];
+//    
+//    $scope.items1 = [1,2,3,4,5];
+//    $scope.items2 = [1,2,3,4,5,6,7,8,9,10];
      
 
-    
+     
 }])
 .controller('paymentDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
     $scope.loader = true;
     var param = $stateParams.name;
 
-    console.log(param)
+    //console.log(param)
     
     homeFactory.getPaymentsDetails(param, function(result) {
         $scope.data = result;
         $scope.loader = false;
-        console.log($scope.data);
+        //console.log($scope.data);
         
     });
     
@@ -65,7 +65,7 @@ angular.module("appController", [])
     homeFactory.getApplicationDetails(param, function(result) {
         $scope.data = result;
         $scope.loader = false;
-        console.log($scope.data);
+       // console.log($scope.data);
     });
     
 }])

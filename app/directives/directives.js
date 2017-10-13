@@ -26,9 +26,9 @@ angular.module("appDirectives", [])
             });
             
             $("#navPros").click(function() {
-                console.log("clicked")
                 $("#navDropTab3").removeClass("currentNavDropDown");
                 var data_nav = $(this).attr("data-nav");
+                console.log(data_nav);
                 $("#" + data_nav).toggleClass("currentNavDropDown");
             });
             

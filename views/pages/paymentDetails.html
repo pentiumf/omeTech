@@ -1,40 +1,41 @@
 
 
-<div class="products-bg-wrapper">
+
+<div class="spinner" ng-show="loader">
+  <div class="ball"></div>
+  <p>LOADING PLEASE WAIT..</p>
+</div>
+
+
+
+<div ng-hide="loader">
+    
+    <div class="products-bg-wrapper">
 
     <div class="products-bg-cap clearfix">
-       
+
        <div class="products-bg-cap-left animated fadeInLeft">
            <h3>{{data.header}}</h3>
            <p>{{data.headerPrara}}</p>
-           <a href="#/get-started" class='pulse-button'>Get Started</a>
-           <a href="#/get-started" class='pulse-button pulse-transparent'>Sign Up</a>
+           <a href="" class='pulse-button'>Get Started</a>
+           <a href="" class='pulse-button pulse-transparent'>Sign Up</a>
        </div>
-        
+
        <div class="products-bg-cap-right">
            <div class="products-bg-cap-right-img">
                <img ng-src="{{data.productsBgImg}}" alt="">
            </div>
        </div>        
-       
 
-<!--
-        <h2>{{data.bgCaptionHeader}}</h2>
-        <p>{{data.bgCaptionSub}}</p>
-        
-        <a href="#/get-started/{{data.bgGetStartedRoute}}" class='pulse-button'>Get Started</a>
--->
     </div>
-    
-</div>
 
-<!--<sticky-nav id="productOneSticky"></sticky-nav>-->
- 
- <div class="product-overview">     
+    </div>
+
+    <div class="product-overview">     
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
-<!--                 <img src="http://deploy.meetingplay.com/marketing/landing/images/mockup/mockup.png" alt="">-->
+    <!--                 <img src="http://deploy.meetingplay.com/marketing/landing/images/mockup/mockup.png" alt="">-->
                  <img ng-src="{{data.productOverview1Img}}" alt="">
              </div>
          </div>
@@ -42,22 +43,22 @@
              <div class="product-overview-right-cap">
                 <h3>{{data.productOverview1Head}}</h3>
                  <p>{{data.productOverview1Para}}</p>
-                 <a href="#/learn-more">Learn More</a>
+                 <a href="javascript:void(0)" ng-click="showVM=true">Learn More</a>
              </div>
          </div>
      </div>
- </div>
- 
- <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
- </div>
+    </div>
 
- <div class="product-second-overview">
-     
+    <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+    </div>
+
+    <div class="product-second-overview">
+
      <div class="product-second-overview-wrap clearfix">
          <div class="product-second-overview-left">
             <div class="product-second-overview-left-cap">
                 <h3> {{data.productOverview2Head}}</h3>
-                 
+
                  <b>{{data.productOverview2HeadSub}}</b> <br>
                  <p>{{data.productOverview2Para}}</p>
 
@@ -69,19 +70,19 @@
              </div>
          </div>
      </div>
-     
- </div>
- 
- <!-- <div class="product-second-overview">
-     
+
+    </div>
+
+    <!-- <div class="product-second-overview">
+
      <div class="product-second-overview-wrap clearfix">
          <div class="product-second-overview-left">
             <div class="product-second-overview-left-cap">
                 <h3> QR Code Payment </h3>
-                 
+
                  <b>Masterpass</b> <br>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta veniam laboriosam rerum molestias illum eius assumenda libero maxime facere aut, natus architecto placeat, voluptate unde blanditiis! Voluptatem accusamus alias magni.</p>
-                 
+
                  <b>mVisa</b> <br>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, eos, vitae. Iure mollitia beatae itaque labore, sequi? In molestiae, vel! Illum rerum neque porro, tempore dicta repellat deleniti earum iusto.</p>
              </div>
@@ -92,39 +93,13 @@
              </div>
          </div>
      </div>
-     
- </div> -->
- 
- 
- 
- 
-<!--
- <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
- </div>
--->
- 
- <!--  <div class="product-overview">     
-     <div class="product-overview-info-wrap clearfix">
-         <div class="product-overview-left">
-             <div class="product-overview-left-img">
-                 <img src="public/images/posdevice.png" alt="">
-             </div>
-         </div>
-         <div class="product-overview-right">
-             <div class="product-overview-right-cap">
-                <h3>Smart Point Of Sales Device</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, omnis cum obcaecati. Illo delectus vero, minus, excepturi veritatis dignissimos vitae suscipit odit doloribus reprehenderit voluptates sint, id rerum quae facere!</p>
-                 <a href="#/learn-more/{{data.overviewLearmoreRoute}}">Learn More</a>
-             </div>
-         </div>
-     </div>
- </div>
- -->
 
-<div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
- </div>
+    </div> -->
 
-<div class="product-grid-wrapper">
+    <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+    </div>
+
+    <div class="product-grid-wrapper">
     <div class="product-grid-container clearfix">
         <div class="product-grid clearfix">
             <div class="product-grid-top">
@@ -139,7 +114,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="product-grid clearfix">
             <div class="product-grid-top">
                 <div class="product-grid-img">
@@ -166,8 +141,8 @@
                 </div>
             </div>
         </div>
-        
-<!--
+
+    <!--
         <div class="product-grid clearfix">
             <div class="product-grid-top">
                 <div class="product-grid-img">
@@ -181,38 +156,36 @@
                 </div>
             </div>
         </div>
--->
+    -->
     </div>
-</div>
- 
-  <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
- </div>
- 
-<!--<prducts-carosel></prducts-carosel>-->
+    </div>
 
-<!--
-  
-<div id="pricing">
-    <div class="pricing-header">
-        <h1>Pricing</h1>
+    <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+    </div>
+
+
+    <div ng-include src="'views/includes/footer.html'">
+
     </div>
     
-	<div ng-repeat="pricing in data.pricing" class="price_card {{pricing.type}}">
-		<div class="header">
-			<span class="price">{{pricing.price}}</span>
-			<span class="name">{{pricing.name}}</span>
-		</div>
-		<ul class="features">
-			<li ng-repeat="feature in pricing.features">{{feature.name}}</li>
-		</ul>
-		<button>{{pricing.button}}</button>
-		<span class="tip">{{pricing.tip}}</span>
-	</div>
-	
+    
 </div>
--->
 
 
-<div ng-include src="'views/includes/footer.html'">
-        
+
+
+
+<div class="view-more animated fadeInUp" ng-show="showVM">
+  <div class="view-more-nav">
+      
+  </div>
+   
+   <div class="view-more-close">
+       <i class="fa fa-close" ng-click="showVM=false"></i>
+   </div>
+    
+    <h1 style="margin-top:2000px;">Header</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est, et quasi enim excepturi eius similique tenetur ea laudantium saepe iure, harum reiciendis ratione ut nesciunt maxime ipsa debitis fuga.</p>
+    
 </div>
