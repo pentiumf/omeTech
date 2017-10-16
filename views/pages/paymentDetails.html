@@ -62,6 +62,7 @@
                  <b>{{data.productOverview2HeadSub}}</b> <br>
                  <p>{{data.productOverview2Para}}</p>
 
+                <a href="javascript:void(0)" ng-click="showVM2=true">Learn More</a>
              </div>
          </div>
          <div class="product-second-overview-right">
@@ -176,16 +177,151 @@
 
 
 <div class="view-more animated fadeInUp" ng-show="showVM">
-  <div class="view-more-nav">
-      
-  </div>
+    <div class="view-more-nav">
+
+    </div>
    
-   <div class="view-more-close">
-       <i class="fa fa-close" ng-click="showVM=false"></i>
-   </div>
-    
-    <h1 style="margin-top:2000px;">Header</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est, et quasi enim excepturi eius similique tenetur ea laudantium saepe iure, harum reiciendis ratione ut nesciunt maxime ipsa debitis fuga.</p>
+    <div class="view-more-close">
+    <i class="fa fa-close" ng-click="showVM=false"></i>
+    </div>
+
+   
+    <div class="view-more-content">
+       
+       <div class="content-section clearfix">
+           <div class="content-section-left">
+               <div class="content-section-left-img">
+                   <img src="https://d85ecz8votkqa.cloudfront.net/press/images/poynt-birds-eye-view.png" alt="">
+               </div>
+           </div>
+           <div class="content-section-right">
+               <div class="content-section-right-cap">
+                   <h3>Smart Mobile POS</h3>
+                   <p>All-in-one Android based system with multiple payments support</p>
+                   <p>Our mobile POS is designed specifically to help you run your business better. A dedicated hardware that performs as good as it looks</p>
+               </div>
+           </div>
+       </div>
+       
+       <div class="content-support clearfix">
+          
+           <div class="content-support-grid">
+               <div class="content-support-grid-img">
+                   <img src="public/images/payment-method.png" alt="">
+               </div>
+               <div class="content-support-cap">
+                   <span>Mobile Money</span>
+               </div>
+           </div>
+           
+           <div class="content-support-grid">
+               <div class="content-support-grid-img">
+<!--                   <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/14944-200.png" alt="">-->
+               <img src="public/images/leather-wallet.png" alt="">
+               </div>
+               <div class="content-support-cap">
+                   <span>E-WALLETS</span>
+               </div>
+           </div>
+           
+           <div class="content-support-grid">
+               <div class="content-support-grid-img">
+                   <img src="public/images/credit-carde.png" alt="">
+               </div>
+               <div class="content-support-cap">
+                   <span>DEBIT/CREDIT CARDS</span>
+               </div>
+           </div>
+           
+           <div class="content-support-grid">
+               <div class="content-support-grid-img">
+                   <img src="public/images/qr-code.png" alt="">
+               </div>
+               <div class="content-support-cap">
+                   <span>QR CODE</span>
+               </div>
+           </div>
+           
+       </div>
+       
+       
+       <div class="content-ending clearfix">
+          
+           <div class="content-ending-header">
+               <h2>Hardware Highlights</h2>
+           </div>
+           
+           <div class="content-ending-body clearfix">
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/android.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>ANDROID SUPPORT</h4>
+                       <p>Secure and customizable Android operating system</p>
+                   </div>
+               </div>
+               
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/shield.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>SAFE AND SECURED</h4>
+                       <p>Advance security for PCI compliance</p>
+                   </div>
+               </div>
+               
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/4g-technology-symbol.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>WIFI & 4G LTE</h4>
+                       <p>Supports 4G LTE and Wi-Fi for fast transaction confirmation</p>
+                   </div>
+               </div>
+               
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/battery.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>BATTERY</h4>
+                       <p>2000 mAh battery with reserve 150mAh lasts whole day</p>
+                   </div>
+               </div>
+               
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/placeholder.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>GPS TRACKING</h4>
+                       <p>GPS system for location tracking field agents & staff</p>
+                   </div>
+               </div>
+               
+               <div class="content-ending-body-grid">
+                   <div class="content-ending-body-grid-icon">
+                       <img src="public/images/printer.png" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>PRINTER</h4>
+                       <p>Built-in thermal Printer for issuing receipts</p>
+                   </div>
+               </div>
+               
+           </div>
+       </div>
+       
+<!--
+       
+        <h1 style="margin-top:2000px;"> showVM2 Header</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est, et quasi enim excepturi eius similique tenetur ea laudantium saepe iure, harum reiciendis ratione ut nesciunt maxime ipsa debitis fuga.</p>
+-->
+        
+    </div>
     
 </div>
