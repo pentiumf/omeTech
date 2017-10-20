@@ -11,5 +11,159 @@
 	"productOverview2Img" : "public/images/posdevice.png",
 	"productOverview3Head" : "CONFIRM PAYMENT",
 	"productOverview3Para" : "Confirm bank transfer, you will receive notification for provided e-mail address. QR code payment is fast and easy-to-use.",
-	"productOverview3Img" : "public/images/posdevice.png"
+	"productOverview3Img" : "public/images/posdevice.png",
+    "viewMoreOneBigImg" : "https://d85ecz8votkqa.cloudfront.net/press/images/poynt-birds-eye-view.png",
+     "viewMoreOneBigCapHead" : "Smart Mobile POS",
+     "viewMoreOneBigCapPara1" : "All-in-one Android based system with multiple payments support",
+     "viewMoreOneBigCapPara2" : "Our mobile POS is designed specifically to help you run your business better. A dedicated hardware that performs as good as it looks",
+     "viewMoreOneSupport": [
+         {
+             "name" : "Mobile Money",
+             "img" : "public/images/payment-method.png"
+         },
+         {
+             "name" : "E-WALLETS",
+             "img" : "public/images/leather-wallet.png"
+         },
+         {
+             "name" : "DEBIT/CREDIT CARDS",
+             "img" : "public/images/credit-carde.png"
+         },
+         {
+             "name" : "QR CODE",
+             "img" : "public/images/qr-code.png"
+         }
+     ],
+     "viewMoreOneEndingHead" : "Hardware Highlights",
+     "viewMoreOneEndingBody" : [
+         {
+             "name" : "ANDROID SUPPORT",
+             "img" : "public/images/android.png",
+             "para" : "Secure and customizable Android operating system"
+         },
+         {
+             "name" : "SAFE AND SECURED",
+             "img" : "public/images/shield.png",
+             "para" : "Advance security for PCI compliance"
+         },
+         {
+             "name" : "WIFI & 4G LTE",
+             "img" : "public/images/shield.png",
+             "para" : "Supports 4G LTE and Wi-Fi for fast transaction confirmation"
+         },
+         {
+             "name" : "BATTERY",
+             "img" : "public/images/battery.png",
+             "para" : "2000 mAh battery with reserve 150mAh lasts whole day"
+         },
+         {
+             "name" : "GPS TRACKING",
+             "img" : "public/images/placeholder.png",
+             "para" : "GPS system for location tracking field agents & staff"
+         },
+         {
+             "name" : "MEMORY",
+             "img" : "public/images/sd-card.png",
+             "para" : "1GB DDR"
+         },
+         {
+             "name" : "CAMERA",
+             "img" : "public/images/photo-camera.png",
+             "para" : "4 core 1.8 Ghz Cortex A15 application processor 108 Mhz Cortex M3 security processor"
+         },
+         {
+             "name" : "PROCESSOR",
+             "img" : "public/images/computer-microprocessor.png",
+             "para" : "Front and back camera Front Camera: 5MP I autofocus (7cm to in nity) Back camera: VGA"
+         }
+     ],
+     "viewMoreTwoBigImg" : "https://d85ecz8votkqa.cloudfront.net/images/poyntdotcom/terminal/merchant-screen-callouts.jpg",
+     "viewMoreTwoBigCapHead" : "The Poynt Smart Terminal",
+     "viewMoreTwoBigCapPara1" : "The world's first smart terminal continues to amaze.",
+     "viewMoreTwoBigCapPara2" : "All payments, accepted all the time.You offer your customers the products and services they love, don't forget to let them pay the way they like.",
+     "viewMoreTwoSupport": [
+         {
+             "name" : "Mobile Money",
+             "img" : "public/images/payment-method.png"
+         },
+         {
+             "name" : "E-WALLETS",
+             "img" : "public/images/leather-wallet.png"
+         },
+         {
+             "name" : "DEBIT/CREDIT CARDS",
+             "img" : "public/images/credit-carde.png"
+         },
+         {
+             "name" : "QR CODE",
+             "img" : "public/images/qr-code.png"
+         }
+     ],
+     "viewMoreTwoEndingHead" : "Hardware Highlights",
+     "viewMoreTwoEndingBody" : [
+         {
+             "name" : "ANDROID SUPPORT",
+             "img" : "public/images/android.png",
+             "para" : "Secure and customizable Android operating system"
+         },
+         {
+             "name" : "SAFE AND SECURED",
+             "img" : "public/images/shield.png",
+             "para" : "Advance security for PCI compliance"
+         },
+         {
+             "name" : "WIFI & 4G LTE",
+             "img" : "public/images/shield.png",
+             "para" : "Supports 4G LTE and Wi-Fi for fast transaction confirmation"
+         },
+         {
+             "name" : "BATTERY",
+             "img" : "public/images/battery.png",
+             "para" : "2000 mAh battery with reserve 150mAh lasts whole day"
+         },
+         {
+             "name" : "GPS TRACKING",
+             "img" : "public/images/placeholder.png",
+             "para" : "GPS system for location tracking field agents & staff"
+         },
+         {
+             "name" : "MEMORY",
+             "img" : "public/images/sd-card.png",
+             "para" : "1GB DDR"
+         },
+         {
+             "name" : "CAMERA",
+             "img" : "public/images/photo-camera.png",
+             "para" : "4 core 1.8 Ghz Cortex A15 application processor 108 Mhz Cortex M3 security processor"
+         },
+         {
+             "name" : "PROCESSOR",
+             "img" : "public/images/computer-microprocessor.png",
+             "para" : "Front and back camera Front Camera: 5MP I autofocus (7cm to in nity) Back camera: VGA"
+         }
+     ]
+     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

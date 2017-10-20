@@ -7,7 +7,6 @@
 </div>
 
 
-
 <div ng-hide="loader">
     
     <div class="products-bg-wrapper">
@@ -177,68 +176,108 @@
 
 
 <div class="view-more animated fadeInUp" ng-show="showVM">
-    <div class="view-more-nav">
-
-    </div>
    
     <div class="view-more-close">
     <i class="fa fa-close" ng-click="showVM=false"></i>
     </div>
 
-   
     <div class="view-more-content">
        
        <div class="content-section clearfix">
            <div class="content-section-left">
                <div class="content-section-left-img">
-                   <img src="https://d85ecz8votkqa.cloudfront.net/press/images/poynt-birds-eye-view.png" alt="">
+                   <img ng-src="{{data.viewMoreOneBigImg}}" alt="">
                </div>
            </div>
            <div class="content-section-right">
                <div class="content-section-right-cap">
-                   <h3>Smart Mobile POS</h3>
-                   <p>All-in-one Android based system with multiple payments support</p>
-                   <p>Our mobile POS is designed specifically to help you run your business better. A dedicated hardware that performs as good as it looks</p>
+                   <h3>{{data.viewMoreOneBigCapHead}}</h3>
+                   <p>{{data.viewMoreOneBigCapPara1}}</p>
+                   <p>{{data.viewMoreOneBigCapPara2}}</p>
                </div>
            </div>
        </div>
        
        <div class="content-support clearfix">
           
-           <div class="content-support-grid">
+           <div class="content-support-grid" ng-repeat="item in data.viewMoreOneSupport">
                <div class="content-support-grid-img">
-                   <img src="public/images/payment-method.png" alt="">
+                   <img ng-src="{{item.img}}" alt="">
                </div>
                <div class="content-support-cap">
-                   <span>Mobile Money</span>
+                   <span>{{item.name}}</span>
                </div>
            </div>
            
-           <div class="content-support-grid">
-               <div class="content-support-grid-img">
-<!--                   <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/14944-200.png" alt="">-->
-               <img src="public/images/leather-wallet.png" alt="">
-               </div>
-               <div class="content-support-cap">
-                   <span>E-WALLETS</span>
-               </div>
+       </div>
+       
+       
+       <div  class="content-ending clearfix">
+          
+           <div class="content-ending-header">
+               <h2>{{data.viewMoreOneEndingHead}}</h2>
            </div>
            
-           <div class="content-support-grid">
-               <div class="content-support-grid-img">
-                   <img src="public/images/credit-carde.png" alt="">
+           <div class="content-ending-body clearfix">
+              
+               <div class="content-ending-body-grid" ng-repeat="item in data.viewMoreOneEndingBody">
+                   <div class="content-ending-body-grid-icon">
+                       <img ng-src="{{item.img}}" alt="">
+                   </div>
+                   <div class="content-ending-body-grid-cap">
+                       <h4>{{item.name}}</h4>
+                       <p>{{item.para}}</p>
+                   </div>
                </div>
-               <div class="content-support-cap">
-                   <span>DEBIT/CREDIT CARDS</span>
+               
+           </div>
+       </div>
+       
+       <div class="content-listings">
+           <div class="conent-listing-wrap">
+               <h2>Benefits</h2>
+               <ul>
+                   <li ng-repeat="item in data.viewMoreListings">{{item.list}}</li>
+               </ul>
+           </div>
+       </div>
+        
+    </div>
+    
+</div>
+
+
+<div class="view-more animated fadeInUp" ng-show="showVM2">
+   
+    <div class="view-more-close">
+    <i class="fa fa-close" ng-click="showVM2=false"></i>
+    </div>
+
+    <div class="view-more-content">
+       
+       <div class="content-section clearfix">
+           <div class="content-section-left">
+               <div class="content-section-left-img">
+                   <img ng-src="{{data.viewMoreTwoBigImg}}" alt="">
                </div>
            </div>
-           
-           <div class="content-support-grid">
+           <div class="content-section-right">
+               <div class="content-section-right-cap">
+                   <h3>{{data.viewMoreTwoBigCapHead}}</h3>
+                   <p>{{data.viewMoreTwoBigCapPara1}}</p>
+                   <p>{{data.viewMoreTwoBigCapPara2}}</p>
+               </div>
+           </div>
+       </div>
+       
+       <div class="content-support clearfix">
+          
+           <div class="content-support-grid" ng-repeat="item in data.viewMoreTwoSupport">
                <div class="content-support-grid-img">
-                   <img src="public/images/qr-code.png" alt="">
+                   <img ng-src="{{item.img}}" alt="">
                </div>
                <div class="content-support-cap">
-                   <span>QR CODE</span>
+                   <span>{{item.name}}</span>
                </div>
            </div>
            
@@ -248,79 +287,23 @@
        <div class="content-ending clearfix">
           
            <div class="content-ending-header">
-               <h2>Hardware Highlights</h2>
+               <h2>{{data.viewMoreTwoEndingHead}}</h2>
            </div>
            
            <div class="content-ending-body clearfix">
-               <div class="content-ending-body-grid">
+              
+               <div class="content-ending-body-grid" ng-repeat="item in data.viewMoreTwoEndingBody">
                    <div class="content-ending-body-grid-icon">
-                       <img src="public/images/android.png" alt="">
+                       <img ng-src="{{item.img}}" alt="">
                    </div>
                    <div class="content-ending-body-grid-cap">
-                       <h4>ANDROID SUPPORT</h4>
-                       <p>Secure and customizable Android operating system</p>
-                   </div>
-               </div>
-               
-               <div class="content-ending-body-grid">
-                   <div class="content-ending-body-grid-icon">
-                       <img src="public/images/shield.png" alt="">
-                   </div>
-                   <div class="content-ending-body-grid-cap">
-                       <h4>SAFE AND SECURED</h4>
-                       <p>Advance security for PCI compliance</p>
-                   </div>
-               </div>
-               
-               <div class="content-ending-body-grid">
-                   <div class="content-ending-body-grid-icon">
-                       <img src="public/images/4g-technology-symbol.png" alt="">
-                   </div>
-                   <div class="content-ending-body-grid-cap">
-                       <h4>WIFI & 4G LTE</h4>
-                       <p>Supports 4G LTE and Wi-Fi for fast transaction confirmation</p>
-                   </div>
-               </div>
-               
-               <div class="content-ending-body-grid">
-                   <div class="content-ending-body-grid-icon">
-                       <img src="public/images/battery.png" alt="">
-                   </div>
-                   <div class="content-ending-body-grid-cap">
-                       <h4>BATTERY</h4>
-                       <p>2000 mAh battery with reserve 150mAh lasts whole day</p>
-                   </div>
-               </div>
-               
-               <div class="content-ending-body-grid">
-                   <div class="content-ending-body-grid-icon">
-                       <img src="public/images/placeholder.png" alt="">
-                   </div>
-                   <div class="content-ending-body-grid-cap">
-                       <h4>GPS TRACKING</h4>
-                       <p>GPS system for location tracking field agents & staff</p>
-                   </div>
-               </div>
-               
-               <div class="content-ending-body-grid">
-                   <div class="content-ending-body-grid-icon">
-                       <img src="public/images/printer.png" alt="">
-                   </div>
-                   <div class="content-ending-body-grid-cap">
-                       <h4>PRINTER</h4>
-                       <p>Built-in thermal Printer for issuing receipts</p>
+                       <h4>{{item.name}}</h4>
+                       <p>{{item.para}}</p>
                    </div>
                </div>
                
            </div>
        </div>
-       
-<!--
-       
-        <h1 style="margin-top:2000px;"> showVM2 Header</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est, et quasi enim excepturi eius similique tenetur ea laudantium saepe iure, harum reiciendis ratione ut nesciunt maxime ipsa debitis fuga.</p>
--->
         
     </div>
     
