@@ -6,8 +6,8 @@
 	"productOverview1Para" : "Our payment gateway is an affordable payment solution for small – medium scale business online and mobile application. We have developed and integrated a single interface connecting to separates payment processing merchants with various payment methods help business stay ahead on the market. Online payment has become difficult and gone beyond the expertise and technical know-how of most online retailers. Instead, retailers can easily connect to our Payment Gateway, which provides the simple set-up and security necessary to ensure fast, reliable and secure transaction online. ",
 	"productOverview1Img" : "public/images/webmobilepay.png",
 	"productOverview2Head" : "USSD",
-	"productOverview2HeadSub" : "Automated",
-	"productOverview2Para" : "Send money to relatives and love ones at your comfort. Its fast and easy..",
+	"productOverview2HeadSub" : "Fast And Secure",
+	"productOverview2Para" : "We have built robust analytics into our USSD platform to help you monitor the uptake of your USSD applications in real time. Send money to relatives and love ones at your comfort. Its fast and easy..",
 	"productOverview2Img" : "http://grapevinegroup.co.za/wp-content/uploads/2016/06/product-ussd-main.png",
 	"productOverview3Head" : "CONFIRM PAYMENT",
 	"productOverview3Para" : "Confirm bank transfer, you will receive notification for provided e-mail address. QR code payment is fast and easy-to-use.",
@@ -59,7 +59,29 @@
         {
             "list" : "Automatic Billing System to bill repeat customers for subscriptions without storing their payment information locally or asking for it each time."
         }
-    ]
+    ],
+    "viewMoreTwoBigImg" : "https://www.netfors.com/wp-content/uploads/2015/01/ussd-sysarch-e1420471111209.png",
+     "viewMoreTwoBigCapHead" : "USSD Payment Gateway",
+     "viewMoreTwoBigCapPara1" : "Powerful marketing tool for leading users to your services.",
+     "viewMoreTwoBigCapPara2" : "Coupling USSD with other services (such as SMS or Voice) can greatly enhance the customer on-boarding experience.",
+     "viewMoreTwoSupport": [
+         {
+             "name" : "Flexible Pricing",
+             "img" : "public/images/tag.png"
+         },
+         {
+             "name" : "Extensive Support",
+             "img" : "public/images/telemarketer.png"
+         },
+         {
+             "name" : "Real-time Analytics",
+             "img" : "public/images/graph-analysis.png"
+         },
+         {
+             "name" : "High Capacity",
+             "img" : "public/images/phone-auricular-with-high-volume.png"
+         }
+     ]
 }
 
 

@@ -169,9 +169,9 @@ angular.module("appDirectives", [])
            
             carousel.owlCarousel({
                   loop: true,
-                  center: true,
+                  //center: true,
                   items: 3,
-                  margin: 0,
+                  margin: 10,
                   autoplay: true,
                   dots: true,
                   nav: true,
@@ -186,10 +186,10 @@ angular.module("appDirectives", [])
                       items: 1
                     },
                     768: {
-                      items: 1
+                      items: 2
                     },
                     1170: {
-                      items: 1
+                      items: 3
                     }
                   }
               });
