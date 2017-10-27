@@ -34,7 +34,6 @@
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
-    <!--                 <img src="http://deploy.meetingplay.com/marketing/landing/images/mockup/mockup.png" alt="">-->
                  <img ng-src="{{data.productOverview1Img}}" alt="">
              </div>
          </div>
@@ -191,10 +190,21 @@
     <div class="view-more-content">
        
        <div class="content-section clearfix">
+          
            <div class="content-section-left">
-               <div class="content-section-left-img">
-                   <img ng-src="{{data.viewMoreOneBigImg}}" alt="">
+              
+               <div class="view-more-controls">
+                   
+                   <a href="javascript:void(0)" ng-click="showFirst=true;showSecond=false;"><img src="{{data.show1}}" alt=""></a>
+                   <a href="javascript:void(0)" ng-click="showSecond=true;showFirst=false;"><img src="{{data.show2}}" alt=""></a>
+                   
                </div>
+               
+               <div class="content-section-left-img">
+                   <img ng-src="{{data.viewMoreOneBigImg}}" ng-show="showFirst" alt="">
+                   <img ng-src="{{data.viewMoreBigImg2}}" ng-show="showSecond" alt="">
+               </div>
+               
            </div>
            <div class="content-section-right">
                <div class="content-section-right-cap">
@@ -251,7 +261,12 @@
         
     </div>
     
+    <div class="view-more-back">
+        <a href="javascript:void(0)" ng-click="showVM=false">Go Back</a>
+    </div>
+    
 </div>
+
 
 
 <div class="view-more animated fadeInUp" ng-show="showVM2">
@@ -263,9 +278,19 @@
     <div class="view-more-content">
        
        <div class="content-section clearfix">
+          
            <div class="content-section-left">
+             
+              <div class="view-more-controls">
+                   
+                   <a href="javascript:void(0)" ng-click="showFirst2=true;showSecond2=false;"><img src="{{data.show3}}" alt=""></a>
+                   <a href="javascript:void(0)" ng-click="showSecond2=true;showFirst2=false;"><img src="{{data.show4}}" alt=""></a>
+                   
+               </div>
+               
                <div class="content-section-left-img">
-                   <img ng-src="{{data.viewMoreTwoBigImg}}" alt="">
+                   <img ng-src="{{data.viewMoreTwoBigImg}}" ng-show="showFirst2" alt="">
+                   <img ng-show="showSecond2" src="{{data.viewMoreTwoBigImg2}}" alt="">
                </div>
            </div>
            <div class="content-section-right">
@@ -312,6 +337,10 @@
            </div>
        </div>
         
+    </div>
+    
+    <div class="view-more-back">
+        <a href="javascript:void(0)" ng-click="showVM2=false">Go Back</a>
     </div>
     
 </div>

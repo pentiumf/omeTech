@@ -29,8 +29,6 @@ angular.module("appController", [])
         $scope.loader = false;
         console.log($scope.data)
     });
-    
-    //$scope.name = "Products";
      
 
      
@@ -47,6 +45,10 @@ angular.module("appController", [])
         //console.log($scope.data);
         
     });
+    
+    $scope.showFirst = true;
+    $scope.showFirst2 = true;
+    
     
 }])
 .controller('applicationDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
