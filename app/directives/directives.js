@@ -13,6 +13,14 @@ angular.module("appDirectives", [])
 //                
 //            });
             
+            
+            $("#navPros").click(function() {
+                $("#navDropTab3").removeClass("currentNavDropDown");
+                var data_nav = $(this).attr("data-nav");
+                //console.log(data_nav);
+                $("#" + data_nav).toggleClass("currentNavDropDown");
+            });
+            
             $("#navProducts").click(function() {
                 $("#navDropTab2").removeClass("currentNavDropDown");
                 var data_nav = $(this).attr("data-nav");
@@ -25,12 +33,7 @@ angular.module("appDirectives", [])
                 $("#" + data_nav).toggleClass("currentNavDropDown");
             });
             
-            $("#navPros").click(function() {
-                $("#navDropTab3").removeClass("currentNavDropDown");
-                var data_nav = $(this).attr("data-nav");
-                console.log(data_nav);
-                $("#" + data_nav).toggleClass("currentNavDropDown");
-            });
+
             
             
             $("body").on("click", ".nav-sub-link", function() {

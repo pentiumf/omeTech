@@ -7,13 +7,13 @@ angular.module("appRoutes", [])
         templateUrl: 'views/pages/home.html',
         controller: 'homeController'
     })
-    .state('product', {
-        url: '/product',
-        templateUrl: 'views/pages/product.html',
-        controller: 'productController'
-    })
+//    .state('product', {
+//        url: '/product',
+//        templateUrl: 'views/pages/product.html',
+//        controller: 'productController'
+//    })
     .state('productDetails', {
-        url: '/product/:name',
+        url: '/products/:name',
         templateUrl: 'views/pages/productDetails.html',
         controller: 'productDetailsController'
     })
@@ -27,6 +27,11 @@ angular.module("appRoutes", [])
         templateUrl: 'views/pages/applicationDetail.html',
         controller: 'applicationDetailsController'
     })
+//    .state('productPage', {
+//        url: '/application/:name',
+//        templateUrl: 'views/pages/applicationDetail.html',
+//        controller: 'applicationDetailsController'
+//    })
     .state('aboutUs', {
         url: '/about-us',
         templateUrl: 'views/pages/aboutUs.html',

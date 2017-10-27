@@ -1,0 +1,47 @@
+{
+    "bgColor" : "linear-gradient(-261deg,#0d4280 24%,#2473d1 61%,#124e95 94%)",
+    "bgHeade" : "Our Transactional Products",
+    "bgPara" : "We deliver fast and secure transactions.",
+    "section" : [
+        {
+            "img" : "https://esussd.ir/wp-content/uploads/2017/01/thumb.png",
+            "h2" : "USSD (Unstructured Supplementary Service Data)",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "Transact with ease using the most affordable payment or transfer tool within our array of payment options."
+                },
+                {
+                    "h4" : "DEDICATED USSD",
+                    "p" : "These are USSD that are allocated to one client only. Businesses or organizations that need white label and increased customization can opt for this service. A dedicated USSD is your personal short code; no other business or service will have the same short code."
+                },
+                {
+                    "h4" : "SHARED USSD",
+                    "p" : "To aid in you effective cost management of your payment and collections platforms, we have introduced a shared USSD that make this service more affordable for our clients."
+                }
+            ]
+        },
+        {
+            "img" : "http://www.webglobal.in/images/Payment-Gatway-web-global.png",
+            "h2" : "PAYMENT GATEWAY",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "Transact with ease using the most affordable payment or transfer tool within our array of payment options."
+                },
+                {
+                    "h4" : "Online Payment Gateway",
+                    "p" : "Facilitate your bulk payments and collections with our online payment gateway including: Visa, MasterCard, Union Pay, Airtel Money, MTN Mobile Money, Tigo Cash and Vodafone Cash."
+                },
+                {
+                    "h4" : "Smart Point of Sale: An all in one android powered",
+                    "p" : "POS with modern features such as NFC, EMV card payments, Mobile Money Payments, Camera, ID and Address verification and Stock Management Applications."
+                },
+                {
+                    "h4" : "QR Code Enrollment and Transactional Portals:",
+                    "p" : "with our highly advanced quick response technology. Payments can now be made with a smart phone and a Decal with a QR encryption displayed on it."
+                }
+            ]
+        }
+    ]
+}

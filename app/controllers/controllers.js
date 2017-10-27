@@ -21,24 +21,16 @@ angular.module("appController", [])
 }])
 
 .controller('productDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
-//    $scope.loader = true;
-//    var param = $stateParams.name;
-//    
-//    homeFactory.getProductsDetails(param, function(result) {
-//        $scope.data = result;
-//        $scope.loader = false;
-//        //console.log($scope.data)
-//    });
-//    
-//    $scope.names = [
-//        "https://media.coindesk.com/uploads/2015/10/point-of-sale-payment-terminal.jpg",
-//        "https://wemakewebsites.com/sites/default/files/styles/large/public/post_images/headline/Dollarphotoclub_95004142.jpg?itok=S7ZBTGrD",
-//        "http://www.icbio.org/images/online-payment.jpg",
-//        "https://usa.visa.com/dam/VCOM/Global%20Elements/android-images/Visa-AndroidPay-1600x900.png"
-//    ];
-//    
-//    $scope.items1 = [1,2,3,4,5];
-//    $scope.items2 = [1,2,3,4,5,6,7,8,9,10];
+    $scope.loader = true;
+    var param = $stateParams.name;
+    
+    homeFactory.getProductsDetails(param, function(result) {
+        $scope.data = result;
+        $scope.loader = false;
+        console.log($scope.data)
+    });
+    
+    //$scope.name = "Products";
      
 
      

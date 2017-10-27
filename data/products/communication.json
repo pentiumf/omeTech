@@ -1,0 +1,39 @@
+{
+    "bgColor" : "linear-gradient(-277deg,#133247 0,#226b9d 94%)",
+    "bgHeade" : "Our Communication Products",
+    "bgPara" : "Hardware, Software, and Apps for a connected merchant experience",
+    "section" : [
+        {
+            "img" : "http://www.mentorgroup.co.uk/wp-content/uploads/2012/11/stick_figure_customer_service_1600_clr_2051.png",
+            "h2" : "CUSTOMER RELATIONS MANAGEMENT (CRM)",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "We have applications embedded with strategies which our partners use to manage and analyze customer interactions and data throughout the customer lifecycle, with the goal of improving business relationships with customers, assisting in customer retention and driving sales volumes upwards."
+                },
+                {
+                    "h4" : "",
+                    "p" : "Our CRM makes it easy to organize, track, and grow your sales pipeline. Get deeper insights on every lead and monitor product performance with ease.It is compatible with Mobile, Web and Desktop Applications such that it forms part of an organization’s culture when deployed on multifaceted channels."
+                }
+            ]
+        },
+        {
+            "img" : "https://www.geticonnectpos.com/wp-content/uploads/2015/09/membership-card.png",
+            "h2" : "LOYALTY PROGRAMS",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "Customer retention can be achieved with our comprehensive loyalty & rewards system, which have the following features marketing & analytic tool, Birthday Rewards, Multi-tier Membership, Marketing Tools, Welcome Points, e.t.c."
+                },
+                {
+                    "h4" : "",
+                    "p" : "Our belief is that customer engagement must be a lifestyle. Hence our loyalty system is usually deployed on Mobile Platform with characteristics such as QR-codes, cashback, bonuses, SMS, email, social media, Payment cards, e-wallets, Loyalty, bonuses, points e.t.c"
+                },
+                {
+                    "h4" : "",
+                    "p" : "Availability: iOS, Android, Windows App"
+                }
+            ]
+        }
+    ]
+}
