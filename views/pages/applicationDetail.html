@@ -32,6 +32,17 @@
 </div>
 
 <!--<sticky-nav id="productOneSticky"></sticky-nav>-->
+
+<div class="products-intro" ng-if="data.productsintro.length > 0">
+   
+    <h4>Overview</h4>
+    
+    <p ng-repeat="pat in data.productsintro">{{pat.para}}</p>
+    
+</div>
+
+<div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+ </div>
  
  <div class="product-overview">     
      <div class="product-overview-info-wrap clearfix">
@@ -75,10 +86,10 @@
  
  
  
- <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+ <div class="" ng-if="data.productOverview3Head != ''" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
  </div>
  
-  <div class="product-overview">     
+  <div class="product-overview" ng-if="data.productOverview3Head != ''">     
      <div class="product-overview-info-wrap clearfix">
          <div class="product-overview-left">
              <div class="product-overview-left-img">
@@ -89,7 +100,6 @@
              <div class="product-overview-right-cap">
                 <h3>{{data.productOverview3Head}}</h3>
                  <p>{{data.productOverview3Para}}</p>
-<!--                 <a href="javascript:void(0)" ng-click="showVM2=true">Learn More</a>-->
              </div>
          </div>
      </div>
@@ -98,11 +108,37 @@
 
 <div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
 </div>
+
+<div class="products-intro">
+    <h4>The Business Value of ERP</h4>
+    
+    <p>ERPs empower employees do their jobs more efficiently by electronically linking business units. More specifically, an ERP solution:</p>
+    
+    <ul>
+        <li>Gives a global, real-time view of data that can enable companies to address concerns proactively and improve productivity.</li>
+        <li>Improves financial compliance with regulatory standards and reduces risk with its “Maker- Checker” rules</li>
+        <li>Automates core business operations such as collections, orders and stock taking, and procure-to-pay processes</li>
+        <li>Enhances customer service by providing one source for billing and relationship tracking.</li>
+    </ul>
+    
+    <p>Summing up these advantages gives a total value of ERP. 
+    With our ERP solution, employees have access to accurate information that enables them to make better decisions faster. Lastly, Our ERP software helps to eliminate redundant processes and systems, dramatically lowering the cost of doing business overall.</p>
+    
+    <p>Click the button to Request for an ERP for your business today! </p>
+    
+    <a class="pulse-button" href="">Requset ERP</a>
+    
+    
+</div>
+
+<div class="" style="background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%); height: 10px;">    
+</div>
  
   <div class="home-testimonials">
     <h3>Our Top And Trusted Partners</h3>
    <testimonial-carousel></testimonial-carousel>
 </div>
+
 
 <!--<prducts-carosel></prducts-carosel>-->
 

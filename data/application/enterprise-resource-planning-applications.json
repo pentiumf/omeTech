@@ -1,0 +1,30 @@
+{
+	"header" : "ENTERPRISE RESOURCE PLANNING APPLICATIONS",
+	"headerPrara" : "Companies work with different departments and units whose processes need to be harmonized to produce an efficient workforce.",
+	"productsBgImg" : "http://mobiansstech.com/imgg/ERP.png",
+	"productOverview1Head" : "Payment Voucher Application",
+	"productOverview1Para" : "Our Payment Voucher module is a desktop application that brings units like the compliance, Risk, Accounts and Procurement together to harmonize corporate purchases in an organization.",
+	"productOverview1Img" : "https://www.tuitionexpress.com/images/te-illustration-for-families.png",
+	"productOverview2Head" : "Form, Registration and Applications",
+	"productOverview2HeadSub" : "Automated",
+	"productOverview2Para" : "from inbuilt requirement checkers to collection of personal data and biometrics to payment of applications, we are able to synchronize all these processes and build a robust portal for any institution or organization such that reconciliation and database management is easy and seamless.",
+	"productOverview2Img" : "https://www.seodiesel.com/img/login/register.png",
+    "productOverview3Head" : "",
+    "productsintro" : [
+        {
+            "para" : "Companies work with different departments and units whose processes need to be harmonized to produce an efficient workforce."
+        },
+        {
+            "para" : "Our Enterprise Resource Planning software are specially for organizations that seek to automate their processes to increase their yield and productivity. The central feature of our ERP systems is a shared database that supports multiple functions used by different business units. In practice, this means that employees in different divisions—for example, accounting and sales—can rely on the same information for their specific needs."
+        },
+        {
+            "para" : "We offer all businesses applications with some degree of synchronized reporting and automation. Instead of forcing employees to maintain separate databases and spreadsheets that have to be manually merged to generate reports, our ERP solutions allows your staff to pull reports from one system."
+        },
+        {
+            "para" : "For instance, with sales orders automatically flowing into the financial system without any manual re-keying, the order management department can process orders more quickly and accurately, and the finance department can close the books faster."
+        },
+        {
+            "para" : "Other common ERP features include a portal or dashboard to enable employees to quickly understand the business' performance on key metrics."
+        }
+    ]
+} 

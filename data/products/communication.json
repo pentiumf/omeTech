@@ -15,6 +15,9 @@
                     "h4" : "",
                     "p" : "Our CRM makes it easy to organize, track, and grow your sales pipeline. Get deeper insights on every lead and monitor product performance with ease.It is compatible with Mobile, Web and Desktop Applications such that it forms part of an organization’s culture when deployed on multifaceted channels."
                 }
+            ],
+            "table" : [
+                
             ]
         },
         {
@@ -32,6 +35,72 @@
                 {
                     "h4" : "",
                     "p" : "Availability: iOS, Android, Windows App"
+                }
+            ],
+            "table" : [
+                
+            ]
+        },
+        {
+            "img" : "http://icons.iconarchive.com/icons/icons8/windows-8/512/Mobile-Sms-icon.png",
+            "h2" : "SHORT MESSAGE SERVICE (SMS)",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "We provide a service for sending short messages up to 160 characters in real time and on mobile devices."
+                },
+                {
+                    "h4" : "",
+                    "p" : "We help you integrate our SMS APIs into applications that require constant communication with its users."
+                },
+                {
+                    "h4" : "",
+                    "p" : "Alternatively, We enable businesses send bulk SMS to their customers with ease. We offer one of the best competitive pricing in the industry."
+                }
+            ],
+            "table" : [
+                
+            ]
+        },
+        {
+            "img" : "http://www.clarity.co.ke/ckfinder/userfiles/files/why-use-bulk.png",
+            "h2" : "BULK MESSAGING",
+            "para" : [
+                {
+                    "h4" : "",
+                    "p" : "We support an all networks (MTN, Airtel, Tigo, Vodafone & Glo) dissemination of large number of SMS messages via Internet through to mobile devices."
+                }
+            ],
+            "table" : [
+                {
+                    "number" : "0-5000",
+                    "unit" : "0.30",
+                    "price" : "GHS 1,500.00"
+                },
+                {
+                    "number" : "5001- 10000",
+                    "unit" : "0.25",
+                    "price" : "GHS 2,500.00"
+                },
+                {
+                    "number" : "10001- 15000",
+                    "unit" : "0.20",
+                    "price" : "GHS 3,000.00"
+                },
+                {
+                    "number" : "15001- 25000",
+                    "unit" : "0.15",
+                    "price" : "GHS 3,750.00"
+                },
+                {
+                    "number" : "25,000- 40000",
+                    "unit" : "0.10",
+                    "price" : "GHS 4,000.00"
+                },
+                {
+                    "number" : "40000 and above",
+                    "unit" : "0.05",
+                    "price" : "GHS 5,000.00"
                 }
             ]
         }

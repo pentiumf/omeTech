@@ -22,6 +22,76 @@
             <p>{{stuff.p}}</p>
         </div>
         
+        <div class="table" ng-if="item.table.length > 0">
+        
+            <div class="table-head">
+                <h4>Pricing</h4>
+            </div>
+    
+            <div class="row header">
+              <div class="cell">
+                Number of SMS
+              </div>
+              <div class="cell">
+                 Price per Unit (GHS) for 30days
+              </div>
+              <div class="cell">
+                 Bundle Price Per (PPM)
+              </div>
+            </div>
+
+            <div class="row" ng-repeat="tab in item.table">
+              <div class="cell">
+                {{tab.number}}
+              </div>
+              <div class="cell">
+                {{tab.unit}}
+              </div>
+              <div class="cell">
+                {{tab.price}}
+              </div>
+            </div>
+
+<!--
+            <div class="row">
+              <div class="cell">
+                Joseph Smith
+              </div>
+              <div class="cell">
+                27
+              </div>
+              <div class="cell">
+                Project Manager
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="cell">
+                Maxwell Johnson
+              </div>
+              <div class="cell">
+                26
+              </div>
+              <div class="cell">
+                UX Architect & Designer
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="cell">
+                Harry Harrison
+              </div>
+              <div class="cell">
+                25
+              </div>
+              <div class="cell">
+                Front-End Developer
+              </div>
+            </div>
+-->
+
+          </div>
+        
     </div>
     
 </div>

@@ -11,5 +11,8 @@
 	"productOverview2Img" : "https://www.sencha.com/wp-content/uploads/2015/03/sencha-touch-hero.png",
 	"productOverview3Head" : "Startup Software Development",
 	"productOverview3Para" : "Want to take the industry by storm? If so, we are your reliable tech partner with a wealth of experience in helping startups. Our engagement model and low-risk approach will help reduce time to market, optimize your budget, and ensure 100% IPR protection of your code.",
-	"productOverview3Img" : "https://cdn-az.indiabizforsale.com/business/images/industry-icons/Startups.jpg"
+	"productOverview3Img" : "https://cdn-az.indiabizforsale.com/business/images/industry-icons/Startups.jpg",
+    "productsintro" : [
+        
+    ]
 }
