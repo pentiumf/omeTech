@@ -1,5 +1,6 @@
 {
 	"header" : "Web Application Devlopment",
+    "bgColor" : "linear-gradient(to right, #642b73, #c6426e)",
 	"headerPrara" : "We build fast, secure, beutiful and high scalable web applications suitable for your business",
 	"productsBgImg" : "https://qph.ec.quoracdn.net/main-qimg-d582a09a2e6d5c009df029741367ef6b",
 	"productOverview1Head" : "Custom Web Application Development",

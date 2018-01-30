@@ -1,7 +1,8 @@
 {
 	"header" : "ENTERPRISE RESOURCE PLANNING APPLICATIONS",
-	"headerPrara" : "Companies work with different departments and units whose processes need to be harmonized to produce an efficient workforce.",
-	"productsBgImg" : "http://mobiansstech.com/imgg/ERP.png",
+    "bgColor" : "linear-gradient(to right, #cb356b, #bd3f32)",
+	"headerPrara" : "Companies work with different departments and Units’ processes need to be harmonized to produce an efficient workforce.",
+	"productsBgImg" : "http://incarnateict.com/wp-content/uploads/2017/05/902ae3b73af0a06c61744a4d42091b15.png",
 	"productOverview1Head" : "Payment Voucher Application",
 	"productOverview1Para" : "Our Payment Voucher module is a desktop application that brings units like the compliance, Risk, Accounts and Procurement together to harmonize corporate purchases in an organization.",
 	"productOverview1Img" : "https://www.tuitionexpress.com/images/te-illustration-for-families.png",
@@ -12,10 +13,7 @@
     "productOverview3Head" : "",
     "productsintro" : [
         {
-            "para" : "Companies work with different departments and units whose processes need to be harmonized to produce an efficient workforce."
-        },
-        {
-            "para" : "Our Enterprise Resource Planning software are specially for organizations that seek to automate their processes to increase their yield and productivity. The central feature of our ERP systems is a shared database that supports multiple functions used by different business units. In practice, this means that employees in different divisions—for example, accounting and sales—can rely on the same information for their specific needs."
+            "para" : "Our Enterprise Resource Planning (ERP) software is especially for organizations who seek to automate their processes to increase their yield and productivity. The central feature of our ERP systems is a shared database that supports multiple functions used by different business units. In practice, this means that employees in different divisions—for example, accounting and sales—can rely on the same information for their specific needs."
         },
         {
             "para" : "We offer all businesses applications with some degree of synchronized reporting and automation. Instead of forcing employees to maintain separate databases and spreadsheets that have to be manually merged to generate reports, our ERP solutions allows your staff to pull reports from one system."

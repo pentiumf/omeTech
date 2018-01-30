@@ -1,5 +1,6 @@
  {
 	"header" : "Smart Point Of Sale Device",
+    "bgColor" : "linear-gradient(to right, #fc4a1a, #f7b733)",
 	"headerPrara" : "Everything you need to sell and market Poynt products to your merchants",
 	"productsBgImg" : "https://d85ecz8votkqa.cloudfront.net/images/poyntdotcom/landing/pst-p5-header.png",
 	"productOverview1Head" : "Smart Mobile POS",

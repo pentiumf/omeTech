@@ -3,45 +3,21 @@ angular.module("appDirectives", [])
     return {
         restrict: 'EA',
         link: function(scope, elem, attr) {
-//            $(".drop-nav-link").click(function() {
-//                var data_nav = $(this).attr("data-nav");
-//                var currentDropdown = $(".navbar-dropdown-wrapper");
-//                //currentDropdown.removeClass("currentNavDropDown")
-//                //console.log(data_nav);
-//                $("#" + data_nav).toggleClass("currentNavDropDown");
-//                //currentDropdown.removeClass("currentNavDropDown")
-//                
-//            });
-            
-            
-            $("#navPros").click(function() {
-                $("#navDropTab3").removeClass("currentNavDropDown");
-                var data_nav = $(this).attr("data-nav");
-                //console.log(data_nav);
-                $("#" + data_nav).toggleClass("currentNavDropDown");
-            });
-            
-            $("#navProducts").click(function() {
-                $("#navDropTab2").removeClass("currentNavDropDown");
-                var data_nav = $(this).attr("data-nav");
-                $("#" + data_nav).toggleClass("currentNavDropDown");
-            });
-            
-            $("#navPayment").click(function() {
-                $("#navDropTab1").removeClass("currentNavDropDown");
-                var data_nav = $(this).attr("data-nav");
-                $("#" + data_nav).toggleClass("currentNavDropDown");
-            });
-            
 
-            
+            $(".drop-nav-link").click(function() {
+                var data_id = $(this).attr("data-nav");
+                $('.navbar-dropdown-wrapper').removeClass('currentNavDropDown');
+                $("#"+data_id).addClass('currentNavDropDown');
+                // $(this).click(function() {
+                //     $("#"+data_id).removeClass('currentNavDropDown');
+                
+                // });
+
+                //$("#" + data_id).toggleClass("currentNavDropDown");
+            });
             
             $("body").on("click", ".nav-sub-link", function() {
-                $(".navbar-dropdown-wrapper").removeClass("currentNavDropDown");
                 
-                if ($(window).width() <= 850) {
-                   $("#navFloatWrapper").removeClass('display-float-wrapper');
-                }
             });
             
             

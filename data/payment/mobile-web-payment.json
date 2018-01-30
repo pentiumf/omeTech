@@ -1,13 +1,14 @@
 {
 	"header" : "Web and mobile payment for merchants",
+    "bgColor" : "linear-gradient(to right, #2980b9, #2c3e50)",
 	"headerPrara" : "A Unique payment interface and tools to enable your business accept and manage online payment",
 	"productsBgImg" : "https://www.wedigtech.com/img/detail/iphone-content-img.png",
 	"productOverview1Head" : "Simplified payment gateway for your web and mobile application",
-	"productOverview1Para" : "Our payment gateway is an affordable payment solution for small – medium scale business online and mobile application. We have developed and integrated a single interface connecting to separates payment processing merchants with various payment methods help business stay ahead on the market. Online payment has become difficult and gone beyond the expertise and technical know-how of most online retailers. Instead, retailers can easily connect to our Payment Gateway, which provides the simple set-up and security necessary to ensure fast, reliable and secure transaction online. ",
+	"productOverview1Para" : "Our payment gateway is an affordable payment solution for small – medium scale business online and mobile application. We have developed and integrated a single interface connecting to separates payment processing merchants with various payment methods help business stay ahead of the market. Online payment integration has become difficult and often goes beyond the technical know-how of most online retailers. Retailers can easily connected to our Payment Gateway, which provides a simple set-up and the necessary security to ensure fast, reliable online transactions. ",
 	"productOverview1Img" : "public/images/webmobilepay.png",
 	"productOverview2Head" : "USSD",
 	"productOverview2HeadSub" : "Fast And Secure",
-	"productOverview2Para" : "We have built robust analytics into our USSD platform to help you monitor the uptake of your USSD applications in real time. Send money to relatives and love ones at your comfort. Its fast and easy..",
+	"productOverview2Para" : "We have built robust analytics into our USSD platform to help you monitor the performance of your USSD applications and plug-ins in real time. Send money to relatives and love ones in the comfort of your home or office. It is fast and easy.",
 	"productOverview2Img" : "http://grapevinegroup.co.za/wp-content/uploads/2016/06/product-ussd-main.png",
 	"productOverview3Head" : "CONFIRM PAYMENT",
 	"productOverview3Para" : "Confirm bank transfer, you will receive notification for provided e-mail address. QR code payment is fast and easy-to-use.",
@@ -17,8 +18,8 @@
     "show1" : "https://www.exploresys.com/images/Marketing/mobile-app-development.png",
     "show2" : "https://developers.google.com/web/fundamentals/payments/images/deep-dive/show-to-promise.png",
     "viewMoreOneBigCapHead" : "About",
-     "viewMoreOneBigCapPara1" : "OME Tech manages the routing of transactions and settlements from the merchant straight to the client’s settlement accounts, however, settlement is made weekly or monthly depending on the preference of the client.",
-     "viewMoreOneBigCapPara2" : "Our payment Gateway account allows you to accept debit/credit cards and electronic payment from mobile wallets and deposit funds automatically into your merchant bank account. Our solutions are designed to save time and money for small- to medium-scale businesses.",
+     "viewMoreOneBigCapPara1" : "OME Tech manages the routing of transactions and settlements from the customer straight to the merchant’s settlement accounts. However, settlement is made daily, weekly or monthly based on the client/merchant’s preference.",
+     "viewMoreOneBigCapPara2" : "Our payment Gateway account allows you to accept debit/credit cards as well as electronic payments from mobile wallets. The process doesn't end there. The funds from such transactions are automatically swept into merchant’s bank account by close of business or the next business day depending on the merchant’s arrangement with Bank. Our Payment solutions are designed to save time and money for small- to medium-scale businesses.",
      "viewMoreOneSupport": [
          {
              "name" : "MTN Mobile Money",
@@ -39,28 +40,25 @@
      ],
     "viewMoreListings" : [
         {
-            "list" : "Manage and review transactions, configure account settings, view account statements, download reports"
+            "list" : "Manage and review transactions, configure account settings, view account statements, download reports."
         },
         {
             "list" : "Sync online payment with our smart POS device and automatically imports your settlements and transactions directly into cloud base application."
         },
         {
-            "list" : "Use our cloud base app to retrieve the details of your processed transactions for reporting and reconciliation."
+            "list" : "Use our cloud-based database application to retrieve the details of your processed transactions for reporting and reconciliation."
         },
         {
             "list" : "Set up multiple user accounts with permissions to control account access."
         },
         {
-            "list" : "Set up multiple user accounts with permissions to control account access."
-        },
-        {
-            "list" : "Accepting payment directly on your site assures customers that you have an established business."
+            "list" : "Accepting payment directly on your website provides credibility."
         },
         {
             "list" : "Control the look of your checkout page to reinforce your company's brand, either on your own site or by using our custom hosted payment form."
         },
         {
-            "list" : "Automatic Billing System to bill repeat customers for subscriptions without storing their payment information locally or asking for it each time."
+            "list" : "Automatic Billing System to bill recurring customers for subscriptions without storing their payment information locally or asking for it each time."
         }
     ],
     "viewMoreTwoBigImg" : "https://www.netfors.com/wp-content/uploads/2015/01/ussd-sysarch-e1420471111209.png",
