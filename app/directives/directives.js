@@ -11,14 +11,12 @@ angular.module("appDirectives", [])
             });
             
             $("body").on("click", ".nav-sub-link", function() {
-                //console.log("nsnnjs");
                 $('.navbar-dropdown-wrapper').removeClass('currentNavDropDown');
             });
             
             
             $("#pul").on("click", function(e) {
                 $("#navFloatWrapper").toggleClass('display-float-wrapper');
-                //menu.slideToggle();
             });
             
             $(".close-nav-drpdwn").on("click", function() {
