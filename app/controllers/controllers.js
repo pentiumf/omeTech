@@ -16,8 +16,6 @@ angular.module("appController", [])
 
 .controller('productController', ['$scope', 'homeFactory', function($scope, homeFactory) {
     
-   
-    
 }])
 
 .controller('productDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
@@ -27,7 +25,7 @@ angular.module("appController", [])
     homeFactory.getProductsDetails(param, function(result) {
         $scope.data = result;
         $scope.loader = false;
-        console.log($scope.data)
+        //console.log($scope.data)
     });
      
 

@@ -8,16 +8,11 @@ angular.module("appDirectives", [])
                 var data_id = $(this).attr("data-nav");
                 $('.navbar-dropdown-wrapper').removeClass('currentNavDropDown');
                 $("#"+data_id).addClass('currentNavDropDown');
-                // $(this).click(function() {
-                //     $("#"+data_id).removeClass('currentNavDropDown');
-                
-                // });
-
-                //$("#" + data_id).toggleClass("currentNavDropDown");
             });
             
             $("body").on("click", ".nav-sub-link", function() {
-                
+                //console.log("nsnnjs");
+                $('.navbar-dropdown-wrapper').removeClass('currentNavDropDown');
             });
             
             
